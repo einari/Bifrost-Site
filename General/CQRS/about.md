@@ -1,1 +1,1 @@
-This should explain CQRS
+[CQRS](http://en.wikipedia.org/wiki/CQRS) is a principle in which one completely separate the reads from the writes. 
