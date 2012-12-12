@@ -7,4 +7,3 @@ The first parameter to the function is a topic or name of message that it will w
 With this, it will observe messages sent through the Bifrost.messageing.Messenger and it will also publish messsages to the same topic/message. 
 
 The observable that is returned can be used directly in any Knockout binding.
-
