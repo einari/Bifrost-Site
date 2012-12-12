@@ -47,3 +47,4 @@ Another thing that Type makes more consistent and in our oppinion easier, is inh
 It will walk up the chain of inheritance to the root and start resolving from that point and use the prototypic inheritance in JavaScript with each level in the chain as the instance used as prototype to the next level.
 
 
+
