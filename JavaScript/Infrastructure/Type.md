@@ -31,3 +31,19 @@ It is also possible, for instance in unit tests / specifications, to specify ins
 		secondDependency : "World"
 	});
 
+
+Another thing that Type makes more consistent and in our oppinion easier, is inheritance and still maintain dependencies for each level in the inheritance chain without the need for passing dependencies from one chain to another.
+
+	Bifrost.namespace("My.namespace", {
+		MyType : Bifrost.Type.extend(function(firstDependency, secondDependency) {
+		})
+	});
+
+	Bifrost.namespace("My.other.namespace", {
+		MyOtherType : My.namespace.MyType.extend(function(otherDependency) {
+		});
+	});
+
+It will walk up the chain of inheritance to the root and start resolving from that point and use the prototypic inheritance in JavaScript with each level in the chain as the instance used as prototype to the next level.
+
+
