@@ -1,0 +1,1 @@
+Represents a [Bifrost.Security.ISecurityAction](Bifrost.Security.ISecurityAction) for handling [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

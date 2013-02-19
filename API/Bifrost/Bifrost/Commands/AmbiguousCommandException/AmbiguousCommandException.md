@@ -1,0 +1,1 @@
+The exception that is thrown if two commands have the same type name

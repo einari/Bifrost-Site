@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Commands.IDynamicCommandFactory](Bifrost.Commands.IDynamicCommandFactory)

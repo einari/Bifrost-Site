@@ -1,0 +1,1 @@
+Represents the conclusion of a saga

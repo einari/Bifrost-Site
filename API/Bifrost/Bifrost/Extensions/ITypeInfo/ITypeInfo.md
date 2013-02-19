@@ -1,0 +1,1 @@
+Defines information for types

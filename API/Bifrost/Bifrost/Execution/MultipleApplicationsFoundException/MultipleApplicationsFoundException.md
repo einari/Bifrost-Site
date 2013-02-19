@@ -1,0 +1,1 @@
+The exception that is thrown if multiple [Bifrost.Execution.IApplication](Bifrost.Execution.IApplication) types exist in the current AppDomain

@@ -1,0 +1,1 @@
+Defines a config element in Xml

@@ -1,0 +1,1 @@
+Represents a special version of an [Bifrost.Events.EventStream](Bifrost.Events.EventStream) that holds committed [Bifrost.Events.IEvent](Bifrost.Events.IEvent)

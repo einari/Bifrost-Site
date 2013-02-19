@@ -1,0 +1,1 @@
+Defines a repository for dealing with ReadModels

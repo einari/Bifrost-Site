@@ -1,0 +1,1 @@
+Represents a [Bifrost.Events.IEventMigrationHierarchyDiscoverer](Bifrost.Events.IEventMigrationHierarchyDiscoverer)

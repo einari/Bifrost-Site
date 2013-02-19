@@ -1,0 +1,1 @@
+Defines the default conventions setup

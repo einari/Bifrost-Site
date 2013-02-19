@@ -1,0 +1,1 @@
+Represents a base for any [Bifrost.Security.ISecurityAction](Bifrost.Security.ISecurityAction)

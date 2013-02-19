@@ -1,0 +1,1 @@
+The exception that is thrown if a [Bifrost.Sagas.IChapter](Bifrost.Sagas.IChapter) does not exist in a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga)

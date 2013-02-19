@@ -1,0 +1,1 @@
+Defines an action that is subject to security

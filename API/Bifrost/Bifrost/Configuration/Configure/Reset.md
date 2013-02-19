@@ -1,0 +1,4 @@
+**Reset**
+
+Reset configuration
+

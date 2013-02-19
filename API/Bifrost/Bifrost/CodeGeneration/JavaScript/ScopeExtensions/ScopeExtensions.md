@@ -1,0 +1,1 @@
+Provide methods for working with [Bifrost.CodeGeneration.JavaScript.Scope](Bifrost.CodeGeneration.JavaScript.Scope)

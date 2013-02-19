@@ -1,0 +1,1 @@
+Represents a [Bifrost.Events.IUncommittedEventStreamCoordinator](Bifrost.Events.IUncommittedEventStreamCoordinator)

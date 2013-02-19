@@ -1,0 +1,1 @@
+Represents an enity of a [Bifrost.Tasks.Task](Bifrost.Tasks.Task) that can be persisted

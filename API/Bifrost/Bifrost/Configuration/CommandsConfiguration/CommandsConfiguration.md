@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Configuration.ICommandsConfiguration](Bifrost.Configuration.ICommandsConfiguration)

@@ -1,0 +1,1 @@
+Defines a marker interface for input level validator for a [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

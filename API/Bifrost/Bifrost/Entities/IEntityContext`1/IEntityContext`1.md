@@ -1,0 +1,1 @@
+Defines a context for working with entities typically stored in a datastore

@@ -1,0 +1,1 @@
+The exception that is thrown when there is no type implementing [Bifrost.Execution.IApplication](Bifrost.Execution.IApplication) in the AppDomain

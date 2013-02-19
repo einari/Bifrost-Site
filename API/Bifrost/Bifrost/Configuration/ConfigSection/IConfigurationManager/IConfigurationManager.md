@@ -1,0 +1,1 @@
+Defines a manager for getting configuration

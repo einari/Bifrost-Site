@@ -1,0 +1,1 @@
+Defines the behavior of being able to do validation

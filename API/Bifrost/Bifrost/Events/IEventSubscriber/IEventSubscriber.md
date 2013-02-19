@@ -1,0 +1,1 @@
+Defines an event subscriber

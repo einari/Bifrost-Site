@@ -1,0 +1,1 @@
+Defines an event which is the subsequent generation of the [Bifrost.Events.IEvent](Bifrost.Events.IEvent)

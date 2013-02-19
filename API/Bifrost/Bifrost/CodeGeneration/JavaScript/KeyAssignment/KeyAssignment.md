@@ -1,0 +1,1 @@
+Represents an assignment of a key to an [Bifrost.CodeGeneration.JavaScript.ObjectLiteral](Bifrost.CodeGeneration.JavaScript.ObjectLiteral)

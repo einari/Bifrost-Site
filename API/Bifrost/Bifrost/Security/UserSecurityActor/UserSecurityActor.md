@@ -1,0 +1,1 @@
+Represents a concrete [Bifrost.Security.SecurityActor](Bifrost.Security.SecurityActor) for a user

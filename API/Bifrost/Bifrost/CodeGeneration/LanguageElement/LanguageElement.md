@@ -1,0 +1,1 @@
+Represents an abstract of a [Bifrost.CodeGeneration.ILanguageElement](Bifrost.CodeGeneration.ILanguageElement)

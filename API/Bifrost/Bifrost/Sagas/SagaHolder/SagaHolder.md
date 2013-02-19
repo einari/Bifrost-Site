@@ -1,0 +1,1 @@
+Represents a holder for a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga) for persisting purposes

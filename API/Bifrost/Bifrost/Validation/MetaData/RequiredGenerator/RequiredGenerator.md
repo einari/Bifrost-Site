@@ -1,0 +1,2 @@
+Represents the generater that can generate a [Bifrost.Validation.MetaData.GreaterThan](Bifrost.Validation.MetaData.GreaterThan) rule from
+            a [FluentValidation.Validators.GreaterThanValidator](FluentValidation.Validators.GreaterThanValidator)

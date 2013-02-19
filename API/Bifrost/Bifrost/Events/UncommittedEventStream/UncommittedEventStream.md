@@ -1,0 +1,1 @@
+Represents a stream of events that are uncommitted

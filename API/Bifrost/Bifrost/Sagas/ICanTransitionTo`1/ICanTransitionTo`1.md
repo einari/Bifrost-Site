@@ -1,0 +1,1 @@
+Defines a marker interface to allow transitions between chapters

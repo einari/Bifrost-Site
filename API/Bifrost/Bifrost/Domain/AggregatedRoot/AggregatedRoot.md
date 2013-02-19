@@ -1,0 +1,1 @@
+Represents the base class used for aggregated roots in your domain

@@ -1,0 +1,1 @@
+Represents a [Bifrost.Events.IEventMigratorManager](Bifrost.Events.IEventMigratorManager)

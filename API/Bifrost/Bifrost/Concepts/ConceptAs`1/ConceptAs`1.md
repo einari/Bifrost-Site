@@ -1,0 +1,1 @@
+Expresses a Concept as a another type, usually a primitive such as Guid, Int or String

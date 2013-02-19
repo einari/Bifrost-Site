@@ -1,0 +1,1 @@
+Defines a manager for dealing with security for [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

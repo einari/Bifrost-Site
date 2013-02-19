@@ -1,0 +1,1 @@
+Represents a [Bifrost.Validation.IChapterValidationService](Bifrost.Validation.IChapterValidationService)

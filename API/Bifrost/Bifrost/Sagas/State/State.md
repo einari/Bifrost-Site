@@ -1,0 +1,1 @@
+Represents a state used in a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga)

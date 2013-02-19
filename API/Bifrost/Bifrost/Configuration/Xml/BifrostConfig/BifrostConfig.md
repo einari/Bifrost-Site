@@ -1,0 +1,1 @@
+Represents the entire configuration of Bifrost from Xml

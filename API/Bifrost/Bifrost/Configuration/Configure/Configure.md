@@ -1,0 +1,1 @@
+Represents the default [Bifrost.Configuration.IConfigure](Bifrost.Configuration.IConfigure) type

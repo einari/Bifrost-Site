@@ -1,0 +1,1 @@
+Defines a container for resolving types

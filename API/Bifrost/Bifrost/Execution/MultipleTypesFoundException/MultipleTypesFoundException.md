@@ -1,0 +1,1 @@
+The exception that is thrown when multiple types are found and not allowed

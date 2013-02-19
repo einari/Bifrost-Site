@@ -1,0 +1,1 @@
+Exception that is thrown if a validator type is of wrong type

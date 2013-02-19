@@ -1,0 +1,1 @@
+Represents an implementation of [IReadModel<T>](IReadModel<T>) for dealing with fetching of single [Bifrost.Read.IReadModel](Bifrost.Read.IReadModel) instances

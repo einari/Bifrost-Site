@@ -1,0 +1,1 @@
+Represents the result from the [Bifrost.Commands.ICommandCoordinator](Bifrost.Commands.ICommandCoordinator)

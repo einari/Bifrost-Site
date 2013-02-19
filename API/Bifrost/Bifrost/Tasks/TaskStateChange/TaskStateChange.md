@@ -1,0 +1,1 @@
+Represents the method that gets called from a [Bifrost.Tasks.Task](Bifrost.Tasks.Task) when it has progress or state change

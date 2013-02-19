@@ -1,0 +1,1 @@
+Represents configuration for Commands

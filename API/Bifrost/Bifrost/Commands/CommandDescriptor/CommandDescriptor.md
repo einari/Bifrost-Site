@@ -1,0 +1,1 @@
+Represents a descriptor for a [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

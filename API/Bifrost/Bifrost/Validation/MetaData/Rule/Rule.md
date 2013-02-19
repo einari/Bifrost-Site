@@ -1,0 +1,1 @@
+Represents the base class of a rule

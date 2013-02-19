@@ -1,0 +1,1 @@
+Defines a configuration set for an [Bifrost.Entities.IEntityContext`1](Bifrost.Entities.IEntityContext`1) implementation

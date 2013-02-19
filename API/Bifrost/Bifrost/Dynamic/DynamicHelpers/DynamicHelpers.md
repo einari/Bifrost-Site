@@ -1,0 +1,1 @@
+Provides a set of extension methods for working with dynamic types

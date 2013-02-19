@@ -1,0 +1,1 @@
+Represents a [Bifrost.Tasks.ITaskScheduler](Bifrost.Tasks.ITaskScheduler)

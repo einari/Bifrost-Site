@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Validation.MetaData.IValidationMetaDataGenerator](Bifrost.Validation.MetaData.IValidationMetaDataGenerator)

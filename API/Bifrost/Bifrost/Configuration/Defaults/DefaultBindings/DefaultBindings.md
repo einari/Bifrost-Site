@@ -1,0 +1,1 @@
+Represents a [Bifrost.Configuration.Defaults.IDefaultBindings](Bifrost.Configuration.Defaults.IDefaultBindings)

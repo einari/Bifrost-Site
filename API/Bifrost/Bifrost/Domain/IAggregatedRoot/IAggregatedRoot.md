@@ -1,0 +1,1 @@
+Defines the very basic functionality needed for an aggregated root

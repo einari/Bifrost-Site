@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Commands.ICommandSecurityManager](Bifrost.Commands.ICommandSecurityManager)

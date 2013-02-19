@@ -1,0 +1,1 @@
+Provides methods for working with [Bifrost.CodeGeneration.JavaScript.Container](Bifrost.CodeGeneration.JavaScript.Container)

@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Events.IProcessMethodInvoker](Bifrost.Events.IProcessMethodInvoker)

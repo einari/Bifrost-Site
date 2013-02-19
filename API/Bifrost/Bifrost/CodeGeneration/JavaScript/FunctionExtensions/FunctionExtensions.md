@@ -1,0 +1,1 @@
+Provides methods for working with [Bifrost.CodeGeneration.JavaScript.Function](Bifrost.CodeGeneration.JavaScript.Function) and related objects

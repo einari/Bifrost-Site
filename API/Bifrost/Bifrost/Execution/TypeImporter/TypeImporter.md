@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.ITypeImporter](Bifrost.Execution.ITypeImporter)

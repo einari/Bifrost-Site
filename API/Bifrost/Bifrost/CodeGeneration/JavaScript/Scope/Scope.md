@@ -1,0 +1,1 @@
+Represents a scope, typically used when you want to assign something within a scope

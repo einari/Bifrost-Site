@@ -1,0 +1,1 @@
+Defines a writer for writing code to, typically used by [Bifrost.CodeGeneration.ILanguageElement](Bifrost.CodeGeneration.ILanguageElement)

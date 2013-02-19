@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Security.ISecurityManager](Bifrost.Security.ISecurityManager)

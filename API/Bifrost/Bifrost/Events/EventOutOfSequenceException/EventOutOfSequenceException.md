@@ -1,0 +1,1 @@
+The exception that is thrown when an [Bifrost.Events.IEvent](Bifrost.Events.IEvent) is out of sequence in an [Bifrost.Events.EventStream](Bifrost.Events.EventStream)

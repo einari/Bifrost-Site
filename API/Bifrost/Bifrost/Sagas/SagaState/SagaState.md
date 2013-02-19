@@ -1,0 +1,1 @@
+Represents the state of a saga

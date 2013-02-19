@@ -1,0 +1,1 @@
+Represents a base implementation of [Bifrost.Security.ISecurable](Bifrost.Security.ISecurable)

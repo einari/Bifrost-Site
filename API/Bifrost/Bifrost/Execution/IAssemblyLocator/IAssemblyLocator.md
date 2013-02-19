@@ -1,0 +1,1 @@
+Defines a locator for locating assemblies for current application

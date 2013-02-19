@@ -1,0 +1,1 @@
+Represents a collection of events in the order that they were applied.

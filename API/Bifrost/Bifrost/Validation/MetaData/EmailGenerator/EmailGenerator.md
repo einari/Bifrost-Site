@@ -1,0 +1,2 @@
+Represents the generater that can generate a [Bifrost.Validation.MetaData.Email](Bifrost.Validation.MetaData.Email) rule from
+            a [FluentValidation.Validators.IEmailValidator](FluentValidation.Validators.IEmailValidator)

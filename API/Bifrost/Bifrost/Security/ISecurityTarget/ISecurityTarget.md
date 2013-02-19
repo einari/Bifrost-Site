@@ -1,0 +1,1 @@
+Defines a [Bifrost.Security.ISecurityTarget](Bifrost.Security.ISecurityTarget)

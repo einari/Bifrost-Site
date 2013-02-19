@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.IBindingConvention](Bifrost.Execution.IBindingConvention) that will apply default conventions

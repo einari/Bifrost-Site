@@ -1,0 +1,1 @@
+Represents the method that gets called to handle a operation within a [Bifrost.Tasks.Task](Bifrost.Tasks.Task)

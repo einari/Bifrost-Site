@@ -1,0 +1,1 @@
+Defines the behavior of having an Id - typically used by objects during querying

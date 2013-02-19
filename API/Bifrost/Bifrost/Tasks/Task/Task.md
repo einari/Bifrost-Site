@@ -1,0 +1,1 @@
+Defines a task that can run and can potentially be paused, resumed and persisted

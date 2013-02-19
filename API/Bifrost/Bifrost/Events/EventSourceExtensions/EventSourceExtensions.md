@@ -1,0 +1,1 @@
+Extensions for [Bifrost.Events.EventSource](Bifrost.Events.EventSource)

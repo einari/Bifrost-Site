@@ -1,0 +1,1 @@
+Represents a [Bifrost.Sagas.ISagaConverter](Bifrost.Sagas.ISagaConverter)

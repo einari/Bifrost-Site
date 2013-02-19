@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.IAssemblyLocator](Bifrost.Execution.IAssemblyLocator)

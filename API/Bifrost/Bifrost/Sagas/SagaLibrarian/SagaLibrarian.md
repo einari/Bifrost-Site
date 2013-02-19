@@ -1,0 +1,1 @@
+Represents a [Bifrost.Sagas.ISagaLibrarian](Bifrost.Sagas.ISagaLibrarian)

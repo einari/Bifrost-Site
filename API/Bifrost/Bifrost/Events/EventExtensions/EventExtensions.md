@@ -1,0 +1,1 @@
+Extensions for an enumerable of [Bifrost.Events.IEvent](Bifrost.Events.IEvent)

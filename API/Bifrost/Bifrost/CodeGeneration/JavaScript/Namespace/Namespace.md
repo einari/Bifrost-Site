@@ -1,0 +1,1 @@
+Represents a namespace, a Bifrost specific construct

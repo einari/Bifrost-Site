@@ -1,0 +1,1 @@
+Defines a parser for Configuration information defined in Xml

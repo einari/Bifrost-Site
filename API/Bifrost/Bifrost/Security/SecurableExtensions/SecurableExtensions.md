@@ -1,0 +1,1 @@
+Extensions for [Bifrost.Security.ISecurable](Bifrost.Security.ISecurable)

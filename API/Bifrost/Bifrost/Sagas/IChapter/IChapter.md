@@ -1,0 +1,1 @@
+Defines a chapter in a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga)

@@ -1,0 +1,1 @@
+Contains the result of an attempt to authorize an action.

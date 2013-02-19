@@ -1,0 +1,1 @@
+Represents the marker interface for a read model

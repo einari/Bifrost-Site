@@ -1,0 +1,1 @@
+Base class to inherit from for basic business-rule validation of a command.

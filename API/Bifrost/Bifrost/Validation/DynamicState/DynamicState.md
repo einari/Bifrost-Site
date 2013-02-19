@@ -1,0 +1,1 @@
+Represents state used by [DynamicStateRuleBuilder](DynamicStateRuleBuilder)

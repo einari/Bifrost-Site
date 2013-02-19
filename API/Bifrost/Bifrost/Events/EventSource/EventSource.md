@@ -1,0 +1,1 @@
+Represents a [Bifrost.Events.IEventSource](Bifrost.Events.IEventSource) This is a base abstract class for any EventSource

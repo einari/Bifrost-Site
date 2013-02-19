@@ -1,0 +1,1 @@
+Represents a null implementation of [Bifrost.Sagas.ISagaLibrarian](Bifrost.Sagas.ISagaLibrarian)

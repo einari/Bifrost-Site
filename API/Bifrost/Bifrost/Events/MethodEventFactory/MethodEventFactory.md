@@ -1,0 +1,1 @@
+Provides functionality for creating method events

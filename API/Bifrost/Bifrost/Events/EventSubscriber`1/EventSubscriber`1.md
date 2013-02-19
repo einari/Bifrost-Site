@@ -1,0 +1,1 @@
+Represents a base class implementation of an [Bifrost.Events.IEventSubscriber](Bifrost.Events.IEventSubscriber)

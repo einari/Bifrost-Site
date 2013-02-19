@@ -1,0 +1,1 @@
+Defines a generic storage configuration

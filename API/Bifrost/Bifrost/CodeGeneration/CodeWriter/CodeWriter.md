@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.CodeGeneration.ICodeWriter](Bifrost.CodeGeneration.ICodeWriter)

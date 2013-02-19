@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Events.IEventSubscriptionManager](Bifrost.Events.IEventSubscriptionManager)

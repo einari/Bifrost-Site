@@ -1,0 +1,1 @@
+Provides helper methods for chapters and transitions

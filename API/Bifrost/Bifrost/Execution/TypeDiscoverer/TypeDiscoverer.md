@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.ITypeDiscoverer](Bifrost.Execution.ITypeDiscoverer) Uses the current AppDomain / Deployment and discoveres all types loaded

@@ -1,0 +1,1 @@
+Defines the recorder for [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga)

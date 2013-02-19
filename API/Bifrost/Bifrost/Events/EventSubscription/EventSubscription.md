@@ -1,0 +1,1 @@
+Represents a subscription for a specific [Bifrost.Events.IEventSubscriber](Bifrost.Events.IEventSubscriber) and method on it that can receive a method

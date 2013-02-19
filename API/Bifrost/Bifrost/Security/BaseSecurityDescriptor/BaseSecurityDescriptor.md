@@ -1,0 +1,1 @@
+Represents a [Bifrost.Security.ISecurityDescriptor](Bifrost.Security.ISecurityDescriptor)

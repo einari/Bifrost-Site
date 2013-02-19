@@ -1,0 +1,1 @@
+Represents the options for serialization

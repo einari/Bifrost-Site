@@ -1,0 +1,1 @@
+Defines a base abstract class for Binding conventions for any [Bifrost.Execution.IContainer](Bifrost.Execution.IContainer)

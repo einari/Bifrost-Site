@@ -1,0 +1,1 @@
+Represents an assignment - a base for any assignments

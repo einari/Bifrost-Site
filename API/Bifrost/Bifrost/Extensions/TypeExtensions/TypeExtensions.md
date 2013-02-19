@@ -1,0 +1,1 @@
+Provides a set of methods for working with [System.Type](System.Type)

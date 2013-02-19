@@ -1,0 +1,1 @@
+Defines a converter for converting a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga) to a [Bifrost.Sagas.SagaHolder](Bifrost.Sagas.SagaHolder) and back

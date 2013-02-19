@@ -1,0 +1,1 @@
+Defines a system that can generate rule from a Fluent Validations property validator

@@ -1,0 +1,1 @@
+Base class to inherit from for basic input validation of a command.

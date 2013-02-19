@@ -1,0 +1,1 @@
+Defines a interface for receiving status reports for tasks

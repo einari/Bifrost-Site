@@ -1,0 +1,1 @@
+Represents an [Bifrost.Configuration.IViewsConfiguration](Bifrost.Configuration.IViewsConfiguration)

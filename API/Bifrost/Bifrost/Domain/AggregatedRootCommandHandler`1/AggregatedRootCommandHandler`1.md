@@ -1,0 +1,1 @@
+Generic CommandHandler for commands targetting AggregatedRoots

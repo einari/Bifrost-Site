@@ -1,0 +1,1 @@
+Provides a set of extension methods to [System.String](System.String)

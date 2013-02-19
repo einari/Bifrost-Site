@@ -1,0 +1,1 @@
+Represents a migration hierarchy for a logical event, containing the concrete type for each step in the chain.

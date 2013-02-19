@@ -1,0 +1,1 @@
+Defines a repository that holds events generated

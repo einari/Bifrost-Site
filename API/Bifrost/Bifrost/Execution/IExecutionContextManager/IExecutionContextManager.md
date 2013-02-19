@@ -1,0 +1,1 @@
+Defines a manager for managing [Bifrost.Execution.IExecutionContext](Bifrost.Execution.IExecutionContext)

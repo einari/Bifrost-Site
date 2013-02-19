@@ -1,0 +1,1 @@
+Represents an event that represents a method on a domain object

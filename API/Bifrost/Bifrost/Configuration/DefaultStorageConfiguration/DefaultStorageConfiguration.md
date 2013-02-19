@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Configuration.IDefaultStorageConfiguration](Bifrost.Configuration.IDefaultStorageConfiguration)

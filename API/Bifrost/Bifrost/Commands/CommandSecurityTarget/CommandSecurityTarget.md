@@ -1,0 +1,1 @@
+Represents a specific [Bifrost.Security.ISecurityTarget](Bifrost.Security.ISecurityTarget) for [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

@@ -1,0 +1,1 @@
+Defines the contract of a language element

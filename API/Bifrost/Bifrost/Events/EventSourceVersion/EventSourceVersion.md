@@ -1,0 +1,1 @@
+Represents the versioning for an [Bifrost.Events.EventSource](Bifrost.Events.EventSource)

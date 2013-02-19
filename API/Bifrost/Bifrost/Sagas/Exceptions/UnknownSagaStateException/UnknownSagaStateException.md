@@ -1,0 +1,1 @@
+Represents an exceptional situation where an [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga) is in an unknown [Bifrost.Sagas.SagaState](Bifrost.Sagas.SagaState)

@@ -1,0 +1,1 @@
+Represents a [Bifrost.Views.IView`1](Bifrost.Views.IView`1)

@@ -1,0 +1,1 @@
+Defines a source for configuration

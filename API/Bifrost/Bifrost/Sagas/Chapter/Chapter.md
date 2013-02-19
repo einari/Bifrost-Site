@@ -1,0 +1,1 @@
+Represents a [Bifrost.Sagas.IChapter](Bifrost.Sagas.IChapter)

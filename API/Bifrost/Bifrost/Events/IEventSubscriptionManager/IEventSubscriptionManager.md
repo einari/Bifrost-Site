@@ -1,0 +1,1 @@
+Defines a manager for dealing with [Bifrost.Events.EventSubscription](Bifrost.Events.EventSubscription)

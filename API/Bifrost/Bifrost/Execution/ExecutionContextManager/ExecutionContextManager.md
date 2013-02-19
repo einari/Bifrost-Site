@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.IExecutionContextManager](Bifrost.Execution.IExecutionContextManager)

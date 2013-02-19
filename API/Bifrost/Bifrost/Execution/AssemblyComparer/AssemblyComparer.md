@@ -1,0 +1,1 @@
+Represents a comparer for comparing assemblies, typically used in Distinct()

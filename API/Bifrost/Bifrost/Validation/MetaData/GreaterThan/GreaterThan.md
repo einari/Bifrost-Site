@@ -1,0 +1,1 @@
+Represents the metadata for the GreaterThan validation rule

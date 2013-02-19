@@ -1,0 +1,1 @@
+Defines a query for a specified type, typically a ReadModel

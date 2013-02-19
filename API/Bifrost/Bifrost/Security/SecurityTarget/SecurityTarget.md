@@ -1,0 +1,1 @@
+Represents a base class for any [Bifrost.Security.ISecurityTarget](Bifrost.Security.ISecurityTarget)

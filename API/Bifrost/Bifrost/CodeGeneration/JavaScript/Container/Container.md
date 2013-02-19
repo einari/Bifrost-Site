@@ -1,0 +1,1 @@
+Represents the abstract of a container like [Bifrost.CodeGeneration.JavaScript.FunctionBody](Bifrost.CodeGeneration.JavaScript.FunctionBody) or [Bifrost.CodeGeneration.JavaScript.ObjectLiteral](Bifrost.CodeGeneration.JavaScript.ObjectLiteral)

@@ -1,0 +1,1 @@
+Represents the result of an authorization of a [Bifrost.Security.ISecurityTarget](Bifrost.Security.ISecurityTarget)

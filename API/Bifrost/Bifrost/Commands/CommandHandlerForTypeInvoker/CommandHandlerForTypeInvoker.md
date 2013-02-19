@@ -1,0 +1,1 @@
+Represents a [Bifrost.Commands.ICommandHandlerInvoker](Bifrost.Commands.ICommandHandlerInvoker)

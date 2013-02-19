@@ -1,0 +1,1 @@
+Defines a repository for working with [Bifrost.Tasks.Task](Bifrost.Tasks.Task)

@@ -1,0 +1,1 @@
+Marker interface for command handlers

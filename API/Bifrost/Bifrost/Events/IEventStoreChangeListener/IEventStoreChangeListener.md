@@ -1,0 +1,1 @@
+Defines a listener for changes occuring on a [Bifrost.Events.IEventStore](Bifrost.Events.IEventStore)

@@ -1,0 +1,1 @@
+Represent a null or non-existant validator.

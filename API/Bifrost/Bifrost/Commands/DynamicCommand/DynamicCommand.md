@@ -1,0 +1,1 @@
+Represents a [Bifrost.Commands.DynamicCommand](Bifrost.Commands.DynamicCommand)

@@ -1,0 +1,1 @@
+Represents a tenant in the system

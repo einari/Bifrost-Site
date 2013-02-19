@@ -1,0 +1,1 @@
+Defines a concrete implementation of [Bifrost.Domain.IAggregatedRootRepository`1](Bifrost.Domain.IAggregatedRootRepository`1)

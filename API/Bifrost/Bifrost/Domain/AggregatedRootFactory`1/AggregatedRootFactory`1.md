@@ -1,0 +1,1 @@
+Represents a [Bifrost.Domain.IAggregatedRootFactory`1](Bifrost.Domain.IAggregatedRootFactory`1)

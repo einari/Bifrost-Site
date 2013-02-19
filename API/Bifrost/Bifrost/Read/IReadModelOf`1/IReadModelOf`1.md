@@ -1,0 +1,1 @@
+Defines a way of retrieving single [Bifrost.Read.IReadModel](Bifrost.Read.IReadModel)

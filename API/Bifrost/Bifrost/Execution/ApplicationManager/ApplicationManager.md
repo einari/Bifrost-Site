@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.IApplicationManager](Bifrost.Execution.IApplicationManager)

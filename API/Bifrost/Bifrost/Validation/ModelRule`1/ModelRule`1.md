@@ -1,0 +1,1 @@
+Represents the rule for a model of any type

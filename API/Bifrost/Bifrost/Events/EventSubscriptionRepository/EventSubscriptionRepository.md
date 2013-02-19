@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Events.IEventSubscriptionRepository](Bifrost.Events.IEventSubscriptionRepository)

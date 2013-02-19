@@ -1,0 +1,1 @@
+Defines the builder for building a [Bifrost.Security.ISecurityDescriptor](Bifrost.Security.ISecurityDescriptor)

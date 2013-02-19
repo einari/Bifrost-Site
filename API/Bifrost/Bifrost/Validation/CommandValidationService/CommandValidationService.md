@@ -1,0 +1,1 @@
+Represents a [Bifrost.Validation.ICommandValidationService](Bifrost.Validation.ICommandValidationService)

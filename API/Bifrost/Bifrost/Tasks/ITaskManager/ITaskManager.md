@@ -1,0 +1,1 @@
+Defines a manager for working with [Bifrost.Tasks.Task](Bifrost.Tasks.Task)

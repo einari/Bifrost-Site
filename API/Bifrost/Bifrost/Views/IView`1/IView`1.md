@@ -1,0 +1,1 @@
+Defines a repository that can be queried against

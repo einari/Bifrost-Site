@@ -1,0 +1,1 @@
+Represents the default [FluentValidation.IValidatorFactory](FluentValidation.IValidatorFactory) implementation used for validators

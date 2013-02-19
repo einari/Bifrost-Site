@@ -1,0 +1,1 @@
+Represents a implementation of [Bifrost.Commands.ICommandForType`1](Bifrost.Commands.ICommandForType`1) targetting [Bifrost.Domain.AggregatedRoot](Bifrost.Domain.AggregatedRoot)

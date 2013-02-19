@@ -1,0 +1,1 @@
+Defines configuration for default storage

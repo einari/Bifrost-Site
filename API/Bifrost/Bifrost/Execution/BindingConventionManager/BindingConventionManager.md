@@ -1,0 +1,1 @@
+Represents a [Bifrost.Execution.IBindingConventionManager](Bifrost.Execution.IBindingConventionManager)

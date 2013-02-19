@@ -1,0 +1,1 @@
+Defines the generator that generates metadata for a validator

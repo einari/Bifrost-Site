@@ -1,0 +1,1 @@
+Represents the validation meta data for the Regex rule

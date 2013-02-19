@@ -1,0 +1,1 @@
+Represents a [Bifrost.Validation.IChapterValidatorProvider](Bifrost.Validation.IChapterValidatorProvider) for providing chapter validators

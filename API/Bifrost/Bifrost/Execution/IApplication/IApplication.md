@@ -1,0 +1,1 @@
+Represents an application that configures Bifrost

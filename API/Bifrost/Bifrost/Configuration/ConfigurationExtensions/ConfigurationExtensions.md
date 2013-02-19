@@ -1,0 +1,3 @@
+Configuration extension for [Bifrost.Configuration.IConfigure](Bifrost.Configuration.IConfigure) configuration for configuring Bifrost for 
+            a [Bifrost.Configuration.IConfigurationSource](Bifrost.Configuration.IConfigurationSource) using a [Bifrost.Configuration.ConfigSection.IConfigurationManager](Bifrost.Configuration.ConfigSection.IConfigurationManager) - typically
+            a App.config/Web.config section

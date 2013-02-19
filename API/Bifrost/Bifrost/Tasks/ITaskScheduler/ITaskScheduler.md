@@ -1,0 +1,1 @@
+Defines an executor for executing [Bifrost.Tasks.Task](Bifrost.Tasks.Task)

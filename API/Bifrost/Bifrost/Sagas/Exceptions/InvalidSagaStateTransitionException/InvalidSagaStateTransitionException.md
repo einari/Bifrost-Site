@@ -1,0 +1,1 @@
+Exception indicating that the transition between two [Bifrost.Sagas.SagaState](Bifrost.Sagas.SagaState) is invalid.

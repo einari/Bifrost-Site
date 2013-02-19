@@ -1,0 +1,1 @@
+Defines something that can be secured

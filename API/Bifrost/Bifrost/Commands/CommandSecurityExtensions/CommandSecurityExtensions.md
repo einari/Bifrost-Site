@@ -1,0 +1,1 @@
+Extensions for building a security descriptor specific for [Bifrost.Commands.ICommand](Bifrost.Commands.ICommand)

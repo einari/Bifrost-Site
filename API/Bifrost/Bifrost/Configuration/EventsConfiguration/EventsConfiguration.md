@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Configuration.IEventsConfiguration](Bifrost.Configuration.IEventsConfiguration)

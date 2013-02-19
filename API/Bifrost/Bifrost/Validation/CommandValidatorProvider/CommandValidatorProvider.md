@@ -1,0 +1,1 @@
+Represents an instance of an [Bifrost.Validation.ICommandValidatorProvider](Bifrost.Validation.ICommandValidatorProvider)

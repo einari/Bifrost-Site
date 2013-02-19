@@ -1,0 +1,1 @@
+Defines an identifier for [Bifrost.Tasks.Task](Bifrost.Tasks.Task)

@@ -1,0 +1,1 @@
+Represents a [Bifrost.Configuration.ISagasConfiguration](Bifrost.Configuration.ISagasConfiguration) implementation

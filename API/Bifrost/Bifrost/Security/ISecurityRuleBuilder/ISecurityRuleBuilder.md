@@ -1,0 +1,1 @@
+Defines a builder for building [Bifrost.Security.ISecurityRule](Bifrost.Security.ISecurityRule)

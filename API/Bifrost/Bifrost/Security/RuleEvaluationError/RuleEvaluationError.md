@@ -1,0 +1,1 @@
+Encapsulates a [Bifrost.Security.ISecurityRule](Bifrost.Security.ISecurityRule) that encountered an Exception when evaluating

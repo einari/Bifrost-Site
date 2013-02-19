@@ -1,0 +1,4 @@
+**LoadAll**
+
+Load all tasks
+

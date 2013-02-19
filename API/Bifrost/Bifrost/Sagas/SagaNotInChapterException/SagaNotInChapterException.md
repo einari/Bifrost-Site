@@ -1,0 +1,1 @@
+The exception that is thrown when a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga) is not in a [Bifrost.Sagas.IChapter](Bifrost.Sagas.IChapter)

@@ -1,0 +1,1 @@
+Represents a null implementation of [Bifrost.Events.IEventStore](Bifrost.Events.IEventStore)

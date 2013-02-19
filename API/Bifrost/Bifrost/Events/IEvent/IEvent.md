@@ -1,0 +1,1 @@
+Defines the basics of an event

@@ -1,0 +1,1 @@
+Defines a manager for notifying changes to registered notifiers

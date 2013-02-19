@@ -1,0 +1,1 @@
+Represents the validation metadata for a type

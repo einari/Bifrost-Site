@@ -1,0 +1,1 @@
+Represents an implementation of [Bifrost.Security.ISecurityActor](Bifrost.Security.ISecurityActor)

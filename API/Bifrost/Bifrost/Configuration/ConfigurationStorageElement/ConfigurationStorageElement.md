@@ -1,0 +1,1 @@
+Base class for configuration elements that require specifc storage

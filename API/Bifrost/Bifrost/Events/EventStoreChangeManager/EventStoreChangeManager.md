@@ -1,0 +1,1 @@
+Represents a [Bifrost.Events.IEventStoreChangeManager](Bifrost.Events.IEventStoreChangeManager)

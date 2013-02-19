@@ -1,0 +1,1 @@
+Represents a body of a [Bifrost.CodeGeneration.JavaScript.Function](Bifrost.CodeGeneration.JavaScript.Function)

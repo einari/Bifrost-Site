@@ -1,0 +1,1 @@
+Represents a [Bifrost.Configuration.Defaults.IDefaultConventions](Bifrost.Configuration.Defaults.IDefaultConventions) implementation

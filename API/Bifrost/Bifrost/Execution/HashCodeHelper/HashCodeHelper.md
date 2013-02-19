@@ -1,0 +1,1 @@
+Provides useful methods for dealing with HashCodes

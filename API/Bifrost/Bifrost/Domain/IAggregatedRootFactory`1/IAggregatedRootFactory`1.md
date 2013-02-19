@@ -1,0 +1,1 @@
+Defines the basic functionality for creating aggregated roots

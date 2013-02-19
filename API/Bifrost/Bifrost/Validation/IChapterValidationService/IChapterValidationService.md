@@ -1,0 +1,1 @@
+Validates that the chapter is valid and conforms to specified business rules

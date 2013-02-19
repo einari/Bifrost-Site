@@ -1,0 +1,1 @@
+The exception that is thrown when an AggregatedRoot is missing

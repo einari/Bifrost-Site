@@ -1,0 +1,1 @@
+Represents a [Bifrost.Globalization.ILocalizer](Bifrost.Globalization.ILocalizer)

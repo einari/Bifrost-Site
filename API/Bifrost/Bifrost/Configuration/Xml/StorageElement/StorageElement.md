@@ -1,0 +1,1 @@
+Represents a configuration element for storage

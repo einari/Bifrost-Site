@@ -1,0 +1,1 @@
+Defines a coordinator for coordinating commands coming into the system

@@ -1,0 +1,1 @@
+Extensions for a [Bifrost.Security.ISecurityContext](Bifrost.Security.ISecurityContext)
