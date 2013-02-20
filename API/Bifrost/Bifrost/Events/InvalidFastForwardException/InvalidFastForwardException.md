@@ -2,16 +2,20 @@ Represents an exceptional situation where an [Bifrost.Events.IEventSource](Bifro
             but there has been an attempt to retrieve it without restoring state by replaying events (fast-forwarding)
 
 **Methods**
+
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)

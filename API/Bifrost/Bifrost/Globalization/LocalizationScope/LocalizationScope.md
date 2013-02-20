@@ -3,12 +3,15 @@ Represents a scope for localization, when exiting the scope, cultures will be re
             or a given culture when disposed
 
 **Methods**
+
 [ctor](Bifrost.Globalization.LocalizationScope.ctor)
 
 
 **Methods**
+
 [FromCurrentThread](Bifrost.Globalization.LocalizationScope.FromCurrentThread)
 
 
 **Methods**
+
 [Dispose](Bifrost.Globalization.LocalizationScope.Dispose)

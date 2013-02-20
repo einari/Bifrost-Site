@@ -4,16 +4,20 @@ Represents an exception situation where a [Bifrost.Events.EventMigrationHierarch
             This could be a level less than 0, or a level greater than the hierarchy depth.
 
 **Methods**
+
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
 
 **Methods**
+
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)

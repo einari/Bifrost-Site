@@ -2,8 +2,10 @@ Defines an invoker for handle methods - it should recognize methods called Handl
             call them
 
 **Methods**
+
 [TryProcess](Bifrost.Events.IProcessMethodInvoker.TryProcess)
 
 
 **Methods**
+
 [Register](Bifrost.Events.IProcessMethodInvoker.Register)
