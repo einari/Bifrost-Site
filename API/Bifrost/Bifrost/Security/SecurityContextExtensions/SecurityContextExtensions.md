@@ -5,6 +5,4 @@ Extensions for a [Bifrost.Security.ISecurityContext](Bifrost.Security.ISecurityC
 [TenantIs](Bifrost.Security.SecurityContextExtensions.TenantIs)
 
 
-**Methods**
-
 [ExecutionContextValue](Bifrost.Security.SecurityContextExtensions.ExecutionContextValue)

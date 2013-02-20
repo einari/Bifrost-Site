@@ -5,6 +5,4 @@ Defines the contract of a language element
 [AddChild](Bifrost.CodeGeneration.ILanguageElement.AddChild)
 
 
-**Methods**
-
 [Write](Bifrost.CodeGeneration.ILanguageElement.Write)

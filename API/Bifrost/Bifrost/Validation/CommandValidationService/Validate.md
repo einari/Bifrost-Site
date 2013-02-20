@@ -1,9 +1,5 @@
-**Validate**
-
-Validate the command
-
-#Parameters#
 
 
-##command##
-Instance to be validated
+**Methods**
+
+[Validate](Bifrost.Validation.ICommandValidationService.Validate)

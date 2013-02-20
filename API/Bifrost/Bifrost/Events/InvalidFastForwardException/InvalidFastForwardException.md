@@ -6,16 +6,10 @@ Represents an exceptional situation where an [Bifrost.Events.IEventSource](Bifro
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Events.InvalidFastForwardException.ctor)

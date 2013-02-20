@@ -5,31 +5,16 @@ Defines a manager for dealing with [Bifrost.Events.EventSubscription](Bifrost.Ev
 [GetAllSubscriptions](Bifrost.Events.IEventSubscriptionManager.GetAllSubscriptions)
 
 
-**Methods**
-
 [GetAvailableSubscriptions](Bifrost.Events.IEventSubscriptionManager.GetAvailableSubscriptions)
 
 
-**Methods**
+[Process](Bifrost.Events.IEventSubscriptionManager.Process)
+
 
 [Process](Bifrost.Events.IEventSubscriptionManager.Process)
 
 
-**Methods**
-
 [Process](Bifrost.Events.IEventSubscriptionManager.Process)
 
 
-**Methods**
-
 [Process](Bifrost.Events.IEventSubscriptionManager.Process)
-
-
-**Methods**
-
-[Process](Bifrost.Events.IEventSubscriptionManager.Process)
-
-
-**Methods**
-
-[ctor](Bifrost.Events.EventSubscriptionManager.ctor)

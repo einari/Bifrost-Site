@@ -5,6 +5,4 @@ Defines an executor for executing [Bifrost.Tasks.Task](Bifrost.Tasks.Task)
 [Start](Bifrost.Tasks.ITaskScheduler.Start)
 
 
-**Methods**
-
 [Stop](Bifrost.Tasks.ITaskScheduler.Stop)

@@ -1,4 +1,3 @@
-**Newline**
 
-Add a newline
 
+[Newline](Bifrost.CodeGeneration.ICodeWriter.Newline)

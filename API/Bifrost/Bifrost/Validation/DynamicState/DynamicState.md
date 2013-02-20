@@ -5,6 +5,4 @@ Represents state used by [DynamicStateRuleBuilder](DynamicStateRuleBuilder)
 [ctor](Bifrost.Validation.DynamicState.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Validation.DynamicState.ctor)

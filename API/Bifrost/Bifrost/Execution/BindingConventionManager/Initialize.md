@@ -1,4 +1,3 @@
-**Initialize**
 
-Initialize system
 
+[Initialize](Bifrost.Execution.IBindingConventionManager.Initialize)

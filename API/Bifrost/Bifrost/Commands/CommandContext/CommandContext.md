@@ -5,6 +5,4 @@ Represents a [Bifrost.Commands.ICommandContext](Bifrost.Commands.ICommandContext
 [ctor](Bifrost.Commands.CommandContext.ctor)
 
 
-**Methods**
-
 [Dispose](Bifrost.Commands.CommandContext.Dispose)

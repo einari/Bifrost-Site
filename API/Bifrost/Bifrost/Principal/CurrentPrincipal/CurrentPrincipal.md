@@ -6,11 +6,7 @@ Represents the current principal.
 [Get](Bifrost.Principal.CurrentPrincipal.Get)
 
 
-**Methods**
-
 [SetPrincipalTo](Bifrost.Principal.CurrentPrincipal.SetPrincipalTo)
 
-
-**Methods**
 
 [Dispose](Bifrost.Principal.CurrentPrincipal.Dispose)

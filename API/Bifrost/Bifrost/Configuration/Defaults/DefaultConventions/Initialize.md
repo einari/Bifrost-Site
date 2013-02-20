@@ -1,4 +1,5 @@
-**Initialize**
 
-Initialize the default conventions
 
+**Methods**
+
+[Initialize](Bifrost.Configuration.Defaults.IDefaultConventions.Initialize)

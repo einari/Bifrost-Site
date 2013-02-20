@@ -5,16 +5,10 @@ Represents an exceptional situation where an [Bifrost.Events.IEvent](Bifrost.Eve
 [ctor](Bifrost.Events.UnregisteredEventException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.UnregisteredEventException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.UnregisteredEventException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Events.UnregisteredEventException.ctor)

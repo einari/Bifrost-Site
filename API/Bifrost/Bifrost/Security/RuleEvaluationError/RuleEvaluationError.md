@@ -5,6 +5,4 @@ Encapsulates a [Bifrost.Security.ISecurityRule](Bifrost.Security.ISecurityRule) 
 [ctor](Bifrost.Security.RuleEvaluationError.ctor)
 
 
-**Methods**
-
 [BuildErrorMessage](Bifrost.Security.RuleEvaluationError.BuildErrorMessage)

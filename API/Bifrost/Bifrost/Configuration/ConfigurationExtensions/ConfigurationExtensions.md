@@ -7,31 +7,19 @@ Configuration extension for [Bifrost.Configuration.IConfigure](Bifrost.Configura
 [UsingConfigConfigurationSource](Bifrost.Configuration.ConfigurationExtensions.UsingConfigConfigurationSource)
 
 
-**Methods**
-
 [SpecificApplication](Bifrost.Configuration.ConfigurationExtensions.SpecificApplication)
 
-
-**Methods**
 
 [WithoutEventStore](Bifrost.Configuration.ConfigurationExtensions.WithoutEventStore)
 
 
-**Methods**
-
 [Asynchronous](Bifrost.Configuration.ConfigurationExtensions.Asynchronous)
 
-
-**Methods**
 
 [WithoutLibrarian](Bifrost.Configuration.ConfigurationExtensions.WithoutLibrarian)
 
 
-**Methods**
-
 [BindEntityContextTo``1](Bifrost.Configuration.ConfigurationExtensions.BindEntityContextTo``1)
 
-
-**Methods**
 
 [BindDefaultEntityContext](Bifrost.Configuration.ConfigurationExtensions.BindDefaultEntityContext)

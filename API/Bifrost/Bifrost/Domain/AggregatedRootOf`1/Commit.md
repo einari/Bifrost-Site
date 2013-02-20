@@ -1,4 +1,5 @@
-**Commit**
 
-Commit the unit of work
 
+**Methods**
+
+[Commit](Bifrost.Lifecycle.IUnitOfWork.Commit)

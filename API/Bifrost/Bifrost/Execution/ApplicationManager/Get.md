@@ -1,4 +1,5 @@
-**Get**
 
-Get the current application
 
+**Methods**
+
+[Get](Bifrost.Execution.IApplicationManager.Get)

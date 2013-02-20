@@ -5,6 +5,4 @@ Represents a subscription for a specific [Bifrost.Events.IEventSubscriber](Bifro
 [ctor](Bifrost.Events.EventSubscription.ctor)
 
 
-**Methods**
-
 [ShouldProcess](Bifrost.Events.EventSubscription.ShouldProcess)

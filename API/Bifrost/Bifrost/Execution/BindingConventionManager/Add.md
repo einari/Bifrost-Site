@@ -1,9 +1,5 @@
-**Add**
-
-Add a convention by type
-
-#Parameters#
 
 
-##type##
-Type of convention to add
+**Methods**
+
+[Add](Bifrost.Execution.IBindingConventionManager.Add)

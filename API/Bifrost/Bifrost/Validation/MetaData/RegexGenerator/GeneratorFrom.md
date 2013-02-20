@@ -1,9 +1,5 @@
-**GeneratorFrom**
-
-Generate from a specific [FluentValidation.Validators.IPropertyValidator](FluentValidation.Validators.IPropertyValidator)
-
-#Parameters#
 
 
-##propertyValidator##
-[IProperty](IProperty)
+**Methods**
+
+[GeneratorFrom](Bifrost.Validation.MetaData.ICanGenerateRule.GeneratorFrom)

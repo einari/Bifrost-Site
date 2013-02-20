@@ -1,9 +1,5 @@
-**Handle**
-
-Handle a command
-
-#Parameters#
 
 
-##command##
-[Bifrost.Commands.ICommand](Bifrost.Commands.ICommand) to handle
+**Methods**
+
+[Handle](Bifrost.Commands.ICommandHandlerManager.Handle)

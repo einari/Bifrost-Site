@@ -5,6 +5,4 @@ Contains the result of an attempt to authorize an action.
 [ProcessAuthorizeDescriptorResult](Bifrost.Security.AuthorizationResult.ProcessAuthorizeDescriptorResult)
 
 
-**Methods**
-
 [BuildFailedAuthorizationMessages](Bifrost.Security.AuthorizationResult.BuildFailedAuthorizationMessages)

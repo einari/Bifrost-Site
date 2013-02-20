@@ -1,4 +1,3 @@
-**DiscoverAndInitialize**
 
-Discover bindings and initialize
 
+[DiscoverAndInitialize](Bifrost.Execution.IBindingConventionManager.DiscoverAndInitialize)

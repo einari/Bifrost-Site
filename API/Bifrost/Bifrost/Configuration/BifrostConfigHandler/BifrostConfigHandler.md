@@ -5,6 +5,4 @@ Represents a [System.Configuration.IConfigurationSectionHandler](System.Configur
 [ctor](Bifrost.Configuration.BifrostConfigHandler.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Configuration.BifrostConfigHandler.ctor)

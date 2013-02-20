@@ -5,6 +5,4 @@ Represents a special version of an [Bifrost.Events.EventStream](Bifrost.Events.E
 [ctor](Bifrost.Events.CommittedEventStream.ctor)
 
 
-**Methods**
-
 [Append](Bifrost.Events.CommittedEventStream.Append)

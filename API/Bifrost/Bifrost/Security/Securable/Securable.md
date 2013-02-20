@@ -3,8 +3,3 @@ Represents a base implementation of [Bifrost.Security.ISecurable](Bifrost.Securi
 **Methods**
 
 [ctor](Bifrost.Security.Securable.ctor)
-
-
-**Methods**
-
-[ctor](Bifrost.Security.NamespaceSecurable.ctor)

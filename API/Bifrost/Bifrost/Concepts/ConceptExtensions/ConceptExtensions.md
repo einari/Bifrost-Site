@@ -5,6 +5,4 @@ Provides extensions related to [System.Type](System.Type) and others related to 
 [IsConcept](Bifrost.Concepts.ConceptExtensions.IsConcept)
 
 
-**Methods**
-
 [GetConceptValueType](Bifrost.Concepts.ConceptExtensions.GetConceptValueType)

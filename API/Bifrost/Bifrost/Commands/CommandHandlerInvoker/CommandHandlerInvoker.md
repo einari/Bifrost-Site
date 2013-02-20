@@ -6,6 +6,4 @@ Represents a [Bifrost.Commands.ICommandHandlerInvoker](Bifrost.Commands.ICommand
 [ctor](Bifrost.Commands.CommandHandlerInvoker.ctor)
 
 
-**Methods**
-
 [Register](Bifrost.Commands.CommandHandlerInvoker.Register)

@@ -5,6 +5,4 @@ Represents the rule for a predicate in the form of a Func that will be called fo
 [ctor](Bifrost.Validation.CommandPredicateRule`1.ctor)
 
 
-**Methods**
-
 [Create](Bifrost.Validation.CommandPredicateRule`1.Create)

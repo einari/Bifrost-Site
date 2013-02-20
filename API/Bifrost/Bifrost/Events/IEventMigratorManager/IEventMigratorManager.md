@@ -5,13 +5,3 @@ Defines the functionality for a manager that handles the migration of events fro
 **Methods**
 
 [Migrate](Bifrost.Events.IEventMigratorManager.Migrate)
-
-
-**Methods**
-
-[ctor](Bifrost.Events.EventMigratorManager.ctor)
-
-
-**Methods**
-
-[RegisterMigrator](Bifrost.Events.EventMigratorManager.RegisterMigrator)

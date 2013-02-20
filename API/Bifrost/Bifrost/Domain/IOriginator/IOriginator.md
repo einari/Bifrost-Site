@@ -5,6 +5,4 @@ Defines an origin, typically for aggregated roots when needing to create memento
 [CreateMemento](Bifrost.Domain.IOriginator.CreateMemento)
 
 
-**Methods**
-
 [SetMemento](Bifrost.Domain.IOriginator.SetMemento)

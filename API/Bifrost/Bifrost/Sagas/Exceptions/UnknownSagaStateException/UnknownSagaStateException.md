@@ -5,16 +5,10 @@ Represents an exceptional situation where an [Bifrost.Sagas.ISaga](Bifrost.Sagas
 [ctor](Bifrost.Sagas.Exceptions.UnknownSagaStateException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Sagas.Exceptions.UnknownSagaStateException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Sagas.Exceptions.UnknownSagaStateException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Sagas.Exceptions.UnknownSagaStateException.ctor)

@@ -5,16 +5,10 @@ Represents an exceptional situation where an event in an [Bifrost.Events.EventMi
 [ctor](Bifrost.Events.DuplicateInEventMigrationHierarchyException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.DuplicateInEventMigrationHierarchyException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.DuplicateInEventMigrationHierarchyException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Events.DuplicateInEventMigrationHierarchyException.ctor)

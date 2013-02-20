@@ -5,6 +5,4 @@ Represents a [Bifrost.Execution.ITypeDiscoverer](Bifrost.Execution.ITypeDiscover
 [ExcludeNamespaceStartingWith](Bifrost.Execution.TypeDiscoverer.ExcludeNamespaceStartingWith)
 
 
-**Methods**
-
 [ctor](Bifrost.Execution.TypeDiscoverer.ctor)

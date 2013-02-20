@@ -1,4 +1,3 @@
-**ResetLastEventForAllSubscriptions**
 
-Reset last event id for all subscriptions
 
+[ResetLastEventForAllSubscriptions](Bifrost.Events.IEventSubscriptionRepository.ResetLastEventForAllSubscriptions)

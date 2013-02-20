@@ -1,4 +1,3 @@
-**Unindent**
 
-Decrease indentation
 
+[Unindent](Bifrost.CodeGeneration.ICodeWriter.Unindent)

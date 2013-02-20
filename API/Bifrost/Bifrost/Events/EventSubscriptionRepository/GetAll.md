@@ -1,4 +1,3 @@
-**GetAll**
 
-Get all subscriptions available
 
+[GetAll](Bifrost.Events.IEventSubscriptionRepository.GetAll)

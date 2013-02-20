@@ -5,6 +5,4 @@ Defines the configuration for Bifrost
 [ConfigurationSource](Bifrost.Configuration.IConfigure.ConfigurationSource)
 
 
-**Methods**
-
 [Initialize](Bifrost.Configuration.IConfigure.Initialize)

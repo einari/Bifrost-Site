@@ -1,9 +1,5 @@
-**RegisterForTracking**
-
-Register an aggregated root for tracking
-
-#Parameters#
 
 
-##aggregatedRoot##
-Aggregated root to track
+**Methods**
+
+[RegisterForTracking](Bifrost.Commands.ICommandContext.RegisterForTracking)

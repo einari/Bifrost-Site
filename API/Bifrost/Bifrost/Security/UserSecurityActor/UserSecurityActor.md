@@ -5,6 +5,4 @@ Represents a concrete [Bifrost.Security.SecurityActor](Bifrost.Security.Security
 [ctor](Bifrost.Security.UserSecurityActor.ctor)
 
 
-**Methods**
-
 [IsInRole](Bifrost.Security.UserSecurityActor.IsInRole)

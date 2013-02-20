@@ -3,8 +3,3 @@ Defines a coordinator for dealing with [Bifrost.Events.UncommittedEventStream](B
 **Methods**
 
 [Commit](Bifrost.Events.IUncommittedEventStreamCoordinator.Commit)
-
-
-**Methods**
-
-[ctor](Bifrost.Events.AsynchronousUncommittedEventStreamCoordinator.ctor)

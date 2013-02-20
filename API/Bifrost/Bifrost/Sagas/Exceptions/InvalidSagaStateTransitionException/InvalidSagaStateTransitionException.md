@@ -5,16 +5,10 @@ Exception indicating that the transition between two [Bifrost.Sagas.SagaState](B
 [ctor](Bifrost.Sagas.Exceptions.InvalidSagaStateTransitionException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Sagas.Exceptions.InvalidSagaStateTransitionException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Sagas.Exceptions.InvalidSagaStateTransitionException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Sagas.Exceptions.InvalidSagaStateTransitionException.ctor)

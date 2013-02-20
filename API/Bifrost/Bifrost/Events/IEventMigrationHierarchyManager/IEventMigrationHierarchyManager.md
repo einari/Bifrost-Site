@@ -5,21 +5,10 @@ Defines a manager that is able to determine what the current migration level for
 [GetCurrentMigrationLevelForLogicalEvent](Bifrost.Events.IEventMigrationHierarchyManager.GetCurrentMigrationLevelForLogicalEvent)
 
 
-**Methods**
-
 [GetConcreteTypeForLogicalEventMigrationLevel](Bifrost.Events.IEventMigrationHierarchyManager.GetConcreteTypeForLogicalEventMigrationLevel)
 
-
-**Methods**
 
 [GetLogicalTypeForEvent](Bifrost.Events.IEventMigrationHierarchyManager.GetLogicalTypeForEvent)
 
 
-**Methods**
-
 [GetLogicalTypeFromName](Bifrost.Events.IEventMigrationHierarchyManager.GetLogicalTypeFromName)
-
-
-**Methods**
-
-[ctor](Bifrost.Events.EventMigrationHierarchyManager.ctor)

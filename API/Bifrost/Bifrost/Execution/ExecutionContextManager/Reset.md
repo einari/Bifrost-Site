@@ -1,4 +1,5 @@
-**Reset**
 
-Reset the context
 
+**Methods**
+
+[Reset](Bifrost.Execution.IExecutionContextManager.Reset)

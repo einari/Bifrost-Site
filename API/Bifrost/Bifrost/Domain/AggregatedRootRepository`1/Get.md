@@ -1,4 +1,5 @@
-**Get**
 
-Get an aggregated root by id
 
+**Methods**
+
+[Get](Bifrost.Domain.IAggregatedRootRepository.Get)

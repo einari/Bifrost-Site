@@ -5,6 +5,4 @@ Represents a [Bifrost.Commands.DynamicCommand](Bifrost.Commands.DynamicCommand)
 [SetValue](Bifrost.Commands.DynamicCommand.SetValue)
 
 
-**Methods**
-
 [InvokeMethod](Bifrost.Commands.DynamicCommand.InvokeMethod)

@@ -5,16 +5,10 @@ Extensions for building a security descriptor specific for [Bifrost.Commands.ICo
 [Handling](Bifrost.Commands.CommandSecurityExtensions.Handling)
 
 
-**Methods**
-
 [Commands](Bifrost.Commands.CommandSecurityExtensions.Commands)
 
 
-**Methods**
-
 [InNamespace](Bifrost.Commands.CommandSecurityExtensions.InNamespace)
 
-
-**Methods**
 
 [InstanceOf``1](Bifrost.Commands.CommandSecurityExtensions.InstanceOf``1)

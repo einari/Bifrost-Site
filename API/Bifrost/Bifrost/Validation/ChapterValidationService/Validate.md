@@ -1,9 +1,5 @@
-**Validate**
-
-Validate the chapter
-
-#Parameters#
 
 
-##chapter##
-Instance to be validated
+**Methods**
+
+[Validate](Bifrost.Validation.IChapterValidationService.Validate)

@@ -8,16 +8,10 @@ Represents an exception situation where a [Bifrost.Events.EventMigrationHierarch
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Events.MigrationLevelOutOfRangeException.ctor)

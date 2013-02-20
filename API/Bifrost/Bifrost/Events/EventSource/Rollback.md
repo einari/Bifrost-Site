@@ -1,4 +1,3 @@
-**Rollback**
 
-Rollback to the state when the unit of work started
 
+[Rollback](Bifrost.Lifecycle.IUnitOfWork.Rollback)

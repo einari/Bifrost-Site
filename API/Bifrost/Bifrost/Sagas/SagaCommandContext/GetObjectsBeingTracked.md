@@ -1,4 +1,3 @@
-**GetObjectsBeingTracked**
 
-Get objects that are being tracked
 
+[GetObjectsBeingTracked](Bifrost.Commands.ICommandContext.GetObjectsBeingTracked)

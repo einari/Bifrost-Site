@@ -7,6 +7,4 @@ Defines an origin, typically for aggregated roots when needing to create memento
 [CreateMemento](Bifrost.Domain.IDynamicOriginator.CreateMemento)
 
 
-**Methods**
-
 [SetMemento](Bifrost.Domain.IDynamicOriginator.SetMemento)

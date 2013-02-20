@@ -5,6 +5,4 @@ Generic CommandHandler for commands targetting AggregatedRoots
 [ctor](Bifrost.Domain.AggregatedRootCommandHandler`1.ctor)
 
 
-**Methods**
-
 [Handle](Bifrost.Domain.AggregatedRootCommandHandler`1.Handle)

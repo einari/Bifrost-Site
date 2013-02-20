@@ -1,4 +1,5 @@
-**Indent**
 
-Increase indentation
 
+**Methods**
+
+[Indent](Bifrost.CodeGeneration.ICodeWriter.Indent)

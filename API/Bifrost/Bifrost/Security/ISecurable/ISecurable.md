@@ -5,11 +5,7 @@ Defines something that can be secured
 [AddActor](Bifrost.Security.ISecurable.AddActor)
 
 
-**Methods**
-
 [CanAuthorize](Bifrost.Security.ISecurable.CanAuthorize)
 
-
-**Methods**
 
 [Authorize](Bifrost.Security.ISecurable.Authorize)

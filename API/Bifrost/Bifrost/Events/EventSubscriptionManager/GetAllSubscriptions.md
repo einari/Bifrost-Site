@@ -1,4 +1,5 @@
-**GetAllSubscriptions**
 
-Get all [Bifrost.Events.EventSubscription](Bifrost.Events.EventSubscription)
 
+**Methods**
+
+[GetAllSubscriptions](Bifrost.Events.IEventSubscriptionManager.GetAllSubscriptions)

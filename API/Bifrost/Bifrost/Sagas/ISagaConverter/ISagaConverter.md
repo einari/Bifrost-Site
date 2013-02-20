@@ -5,11 +5,7 @@ Defines a converter for converting a [Bifrost.Sagas.ISaga](Bifrost.Sagas.ISaga) 
 [ToSaga](Bifrost.Sagas.ISagaConverter.ToSaga)
 
 
-**Methods**
-
 [ToSagaHolder](Bifrost.Sagas.ISagaConverter.ToSagaHolder)
 
-
-**Methods**
 
 [Populate](Bifrost.Sagas.ISagaConverter.Populate)

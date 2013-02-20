@@ -1,4 +1,5 @@
-**GetCurrent**
 
-Gets the current [Bifrost.Commands.ICommandContext](Bifrost.Commands.ICommandContext) , if any
 
+**Methods**
+
+[GetCurrent](Bifrost.Commands.ICommandContextManager.GetCurrent)

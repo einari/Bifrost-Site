@@ -7,11 +7,7 @@ Represents a scope for localization, when exiting the scope, cultures will be re
 [ctor](Bifrost.Globalization.LocalizationScope.ctor)
 
 
-**Methods**
-
 [FromCurrentThread](Bifrost.Globalization.LocalizationScope.FromCurrentThread)
 
-
-**Methods**
 
 [Dispose](Bifrost.Globalization.LocalizationScope.Dispose)

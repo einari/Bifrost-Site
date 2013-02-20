@@ -1,4 +1,5 @@
-**GetAll**
 
-Gets all assemblies for current application
 
+**Methods**
+
+[GetAll](Bifrost.Execution.IAssemblyLocator.GetAll)

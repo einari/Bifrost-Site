@@ -5,16 +5,10 @@ Represents an exceptional situation where an [Bifrost.Events.IEvent](Bifrost.Eve
 [ctor](Bifrost.Events.NotAMigratedEventTypeException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.NotAMigratedEventTypeException.ctor)
 
 
-**Methods**
-
 [ctor](Bifrost.Events.NotAMigratedEventTypeException.ctor)
 
-
-**Methods**
 
 [ctor](Bifrost.Events.NotAMigratedEventTypeException.ctor)

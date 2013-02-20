@@ -8,21 +8,13 @@ Defines a librarian for handling sagas
 [Close](Bifrost.Sagas.ISagaLibrarian.Close)
 
 
-**Methods**
-
 [Catalogue](Bifrost.Sagas.ISagaLibrarian.Catalogue)
 
 
-**Methods**
-
 [Get](Bifrost.Sagas.ISagaLibrarian.Get)
 
 
-**Methods**
-
 [Get](Bifrost.Sagas.ISagaLibrarian.Get)
 
-
-**Methods**
 
 [GetForPartition](Bifrost.Sagas.ISagaLibrarian.GetForPartition)

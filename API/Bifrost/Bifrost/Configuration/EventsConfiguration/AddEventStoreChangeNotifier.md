@@ -1,9 +1,5 @@
-**AddEventStoreChangeNotifier**
-
-Add a [Bifrost.Events.IEventStoreChangeNotifier](Bifrost.Events.IEventStoreChangeNotifier) type for the configuration
-
-#Parameters#
 
 
-##type##
+**Methods**
 
+[AddEventStoreChangeNotifier](Bifrost.Configuration.IEventsConfiguration.AddEventStoreChangeNotifier)

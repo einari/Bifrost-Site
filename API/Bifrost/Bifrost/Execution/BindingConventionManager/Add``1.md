@@ -1,4 +1,3 @@
-**Add``1**
 
-Add a convention by type generically
 
+[Add``1](Bifrost.Execution.IBindingConventionManager.Add``1)

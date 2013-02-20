@@ -6,11 +6,7 @@ Represents a clock that keeps track of the current system date and time.
 [GetCurrentTime](Bifrost.Time.SystemClock.GetCurrentTime)
 
 
-**Methods**
-
 [SetNowTo](Bifrost.Time.SystemClock.SetNowTo)
 
-
-**Methods**
 
 [Dispose](Bifrost.Time.SystemClock.Dispose)

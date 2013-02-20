@@ -1,9 +1,3 @@
-**Set**
-
-Set the current application
-
-#Parameters#
 
 
-##application##
-The instance of the application
+[Set](Bifrost.Execution.IApplicationManager.Set)

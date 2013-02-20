@@ -6,16 +6,4 @@ Defines the basic functionality for a convention that can be applied
 [CanResolve](Bifrost.Execution.IBindingConvention.CanResolve)
 
 
-**Methods**
-
 [Resolve](Bifrost.Execution.IBindingConvention.Resolve)
-
-
-**Methods**
-
-[GetScopeForTarget](Bifrost.Execution.BaseConvention.GetScopeForTarget)
-
-
-**Methods**
-
-[ctor](Bifrost.Execution.DefaultConvention.ctor)

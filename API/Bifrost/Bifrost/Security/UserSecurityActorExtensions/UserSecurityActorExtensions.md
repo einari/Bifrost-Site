@@ -5,6 +5,4 @@ Extensions for [Bifrost.Security.UserSecurityActor](Bifrost.Security.UserSecurit
 [MustBeInRole](Bifrost.Security.UserSecurityActorExtensions.MustBeInRole)
 
 
-**Methods**
-
 [MustBeInRoles](Bifrost.Security.UserSecurityActorExtensions.MustBeInRoles)
