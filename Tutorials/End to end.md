@@ -1,4 +1,4 @@
-* The Goal *
+*The Goal*
 The purpose of this tutorial is to take you through the entire stack of Bifrost, all the steps you need
 and can do to successfully build software using Bifrost. The philosophy behind Bifrost is somewhat 
 different than what you find in more established architectures. For instance, you'll hardly see any
@@ -19,18 +19,18 @@ more focused applications brought together in a bigger setting. When approaching
 manner you end up with code that is more decoupled, more maintainable and less prone to errors and
 regression. 
 
-** The user story **
+**The user story**
 In this tutorial we're going to create a simple feature in a corner of an imagined system.
 
 
-* Getting started *
+*Getting started*
 
-** Projects **
+**Projects**
 
-** Nuget **
+**Nuget**
 
 
-** Frontend **
+**Frontend**
 We're fond of doing top-down development, starting in the frontend and move downwards.
 
 The feature we're going to create is going to the registration of Employees.
@@ -53,14 +53,14 @@ Now we're going to add a viewmodel that will be associated with your feature.
 For now we're going to leave it at that. We will revisit this when we have the necessary bits ready in the
 C# code.
 
-* Bounded Contexts *
+*Bounded Contexts*
 
-* Modules *
+*Modules*
 
 
-* Domain *
+*Domain*
 
-** Concepts **
+**Concepts**
 A concept is a lightweight representation of something you have in your domain vocabulary. Instead of losing
 what things are by using primitives such as booleans, integers or strings, we encapsulate these parts of 
 the vocabulary into what we call concepts. Bifrost has a baseclass to help you out with this and something
@@ -89,7 +89,7 @@ The concept can now be used and be capable of going back and forth from primitiv
 be handy when we get to applying events.
 
 
-** Command **
+**Command**
 A command represents the behavior you want to happen in your system. It represents the intent of the user
 and is optimized for one purpose and the idea is to not reuse commands across the system. It is represented
 
@@ -106,7 +106,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Input validation **
+**Input validation**
 
 	using Bifrost.Validation;
 	using FluentValidation;
@@ -123,7 +123,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Business validation **
+**Business validatio**
 
 	using Bifrost.Validation;
 	using FluentValidation;
@@ -136,9 +136,9 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 	}
 
 
-** Security **
+**Security**
 
-** Events **
+**Events**
 
 	using System;
 	using Bifrost.Events;
@@ -155,7 +155,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Aggregated Root **
+**Aggregated Root**
 
 	using System;
 	using Bifrost.Domain;
@@ -179,7 +179,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Command Handler **
+**Command Handler**
 
 	using Bifrost.Commands;
 	using Bifrost.Domain;
@@ -206,7 +206,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** ReadModel **
+**ReadModel**
 
 	using System;
 	using Bifrost.Read;
@@ -222,7 +222,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Event subscriber **
+**Event subscriber**
 
 	using Bifrost.Events;
 	using Bifrost.Read;
@@ -252,7 +252,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 		}
 	}
 
-** Query **
+**Query**
 
 	using Bifrost.Read;
 
@@ -278,7 +278,7 @@ and is optimized for one purpose and the idea is to not reuse commands across th
 	}
 
 
-** Going back up into the frontend **
+**Going back up into the frontend**
 
 
 
