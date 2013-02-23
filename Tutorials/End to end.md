@@ -173,8 +173,10 @@ With a command, one can also express so much more than just what it is doing, bu
 all just a question of how you name the command. And don't be afraid to dive in and make many commands
 that effectively is doing the same thing, remember that inheritance is fine and you can have a base
 one representing the actual behavior that you want to happen in the system but be very explicit on
-the deriviatives of the users intentions. For our tutorial we will not be all too creative, we will
-simply be adding a RegisterEmployee command
+the deriviatives of the users intentions. It is very important to recognize a command to be something
+you want to happen in the system, so we model it so.
+
+For our tutorial we will not be all too creative, we will simply be adding a RegisterEmployee command.
 
 	using Bifrost.Commands;
 	using Concepts.Persons;
@@ -190,6 +192,13 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Input validation
+Performing a behavior in a system needs to be validated that it is correct before we can apply it.
+Validation is divided into two steps; Input and Business. Input being typically connected with
+properties and consumed on a client. Bifrost generates metadata that can be used directly by
+clientside validators.
+
+Lets start by adding an Input validator for our command. Add a file next to the command called
+RegisterEmployeeInputValidator and make it look like below:
 
 	using Bifrost.Validation;
 	using FluentValidation;
@@ -213,6 +222,12 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Business validation
+Business validation is the next step after basic input validation has been executed. 
+You would normally use business validation to perform more complex scenarios and things
+that are more cross cutting within the command and not necessarily linked to a property.
+
+For now, business validation is not something we will be performing at this stage. But
+the way you would write one is very similar to that of an input validator:
 
 	using Bifrost.Validation;
 	using FluentValidation;
@@ -227,8 +242,22 @@ simply be adding a RegisterEmployee command
 
 
 ### Security
+Normally we would at this stage be looking at security and Bifrost has a very similar
+approach as with validation to how to setup security. We will not be doing this in this
+tutorial, it will be the subject of another tutorial.
 
 ### Events
+Now that we have our command and it has been validated through the system, its time to
+turn what we want to have happen to the system into something that has happened, the
+things that make up the truth in the system; the events. Naming plays an important role
+here. We turn the naming around and say that things have happened, so registering an
+employee becomes; EmployeeRegistered. Notice that we also don't use the domain concept
+on the event. This is due to the fact that we want to keep our events as simple as possible.
+This because of serialization, persistence and in general avoid potential problems with
+versioning of types and such. So only primitives for this particular part.
+
+Recreate the bounded context and module structure in the Events project and add the 
+EmployeeRegistered class into the Employees module and make it look like this:
 
 	using System;
 	using Bifrost.Events;
@@ -246,6 +275,14 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Aggregated Root
+Once we have our event we need something to apply it, this is were we create an aggregate, a 
+transactional boundary that can apply the event. These aggregates do not expose any public
+state, only public behaviors - or methods as we call them in C#. They can hold internal state
+and have their state be populated from the events they self have generated over time by
+implementing a private Handle() method that takes in the event it wants to handle.
+
+Going back in the Domain project in the HumanResources and Employees folder, add a class 
+called Employee, it should look like below:
 
 	using System;
 	using Bifrost.Domain;
@@ -273,6 +310,16 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Command Handler
+All we've done now is introduce a command, some validation, an event and an aggregate that 
+can apply the event. But we haven't added any code that can handle the command. 
+CommandHandlers are responsible for taking a command and performing the necessary actions
+in the domain. Implementing command handlers is very easy, all one has to do is create a class
+and stick a marker interface called IHandleCommands in there and just start implementing by
+convention public methods called Handle() that takes the specific command you want to handle
+in as a parameter.
+
+In the domain project, lets add a class called CommandHandlers next to the command and the
+validators and the aggregate. Make it look like below:
 
 	using Bifrost.Commands;
 	using Bifrost.Domain;
@@ -300,6 +347,12 @@ simply be adding a RegisterEmployee command
 	}
 
 ### ReadModel
+Now that we've taken care of business and applied events, we must look at the consequences of
+this. Lets start with the end result, the data what we will have. In Bifrost we refer to this
+as a readmodel, and we have a marker interface called IReadModel. 
+
+Lets go into the Read project and recreate the bounded context and the module structure; 
+HumanResources.Employees. Add a class called Employee and make it look like below:
 
 	using System;
 	using Bifrost.Read;
@@ -316,6 +369,13 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Event subscriber
+With the readmodel in place, we can finally start processing the event and actually insert
+the data we generate from it into our datasource. We call these processors EventSubscribers
+and we register subscriptions for them. In order to be able to process events, we do things
+similar to how we did the command handler. We create a class, mark it with an interface called
+IProcessEvents and implement a public method called Process() taking the specific event that
+you want to process as a parameter.
+
 
 	using Bifrost.Events;
 	using Bifrost.Read;
@@ -346,6 +406,17 @@ simply be adding a RegisterEmployee command
 	}
 
 ### Query
+In order to get the data out, Bifrost comes with a formalization of querying that we
+will be using. The formalization involves creating a class representing the different
+queries one needs with the name of the class giving away the name of the query. 
+All one needs to do then is to implement the IQueryFor<> generic interface and implement
+the query. The reasoning behind this model is to move the concerns of the client away
+from the server, so typically paging and similar things is not something you have to
+concern yourself about - Bifrost will amend this information to the IQueryable<> that you
+return. 
+
+In the Read project inside the Employees folder, add a class called AllEmployees and
+make it look like below:
 
 	using Bifrost.Read;
 
@@ -451,6 +522,3 @@ In our view we just add the following below the fieldset.
     </table>
 
 This should now be showing the result.
-
-
-
