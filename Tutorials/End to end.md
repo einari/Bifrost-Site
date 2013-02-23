@@ -68,6 +68,7 @@ So select the Web project and do:
 
 	PM> Install-Package Bifrost.Defaults
 
+What this does is setup Bifrost with Ninject as IOC Container, RavenDB embedded and SignalR.
 
 ### Frontend
 We're fond of doing top-down development, starting in the frontend and move downwards.
@@ -78,8 +79,19 @@ Now we're going to add the view for the registration. Add an HTML file called re
 Employees folder. We're going to add some HTML within the body tag in the newly created file.
 
 	<fieldset>
-				
+        <strong>First Name</strong>
+        <input type="text" />
+        <br />
 
+        <strong>Last Name</strong>
+        <input type="text" />
+        <br />
+
+        <strong>Social Security Number</strong>
+        <input type="text" data-bind="value: register.socialSecurityNumber" />
+        <br />
+
+        <button>Register</button>
 	</fieldset>
 
 Now we're going to add a viewmodel that will be associated with your feature.
@@ -361,6 +373,84 @@ simply be adding a RegisterEmployee command
 
 # Going back up into the frontend
 With all the artifacts we now in C#, Bifrost produces a set of proxies at runtime that the JavaScript can take advantage of.
+
+### ViewModel
+Remember the ViewModel that we put in, not very exciting - in fact, nothing happening in it at all. 
+With everything in place now we can basically start taking dependencies into the viewmodel and use data-binding
+to hook it all up in the view.
+
+Lets modify the viewmodel to look like this: 
+
+	Bifrost.namespace("Features.Employees", {
+		register: Bifrost.Type.extend(function(registerEmployee, allEmployees) {
+			var self = this;
+			this.register = registerEmployee;
+			this.employees = allEmployees.all();
+		})
+	});
+
+Basically what we`ve done now is to take a dependency on the command we created and the query we created.
+Bifrost generates a proxy for these and you can just use them directly like above. Inside Bifrost there sits
+an IOC (Inversion of Control) container that resolves dependencies in different ways, one being well known
+commands and queries coming from proxies.
+
+### View
+
+Now that we have that we can go ahead and modify the view to be take advantage of the command and the query.
+Going into the view file, we need to make it look like this:
+
+    <fieldset>
+        <strong>First Name</strong>
+        <input type="text" data-bind="value: register.firstName" />
+        <span data-bind="validationMessageFor: register.firstName"></span>
+        <br />
+
+        <strong>Last Name</strong>
+        <input type="text" data-bind="value: register.lastName" />
+        <span data-bind="validationMessageFor: register.lastName"></span>
+        <br />
+
+        <strong>Social Security Number</strong>
+        <input type="text" data-bind="value: register.socialSecurityNumber" />
+        <span data-bind="validationMessageFor: register.socialSecurityNumber"></span>
+        <br />
+
+        <button data-bind="command: register">Register</button>
+    </fieldset>
+
+What the above alteration has done is to add binding of the values on the commands into the inputs.
+In addition we add validation messages using a binding handler that comes with Bifrost called 
+"validationMessageFor" which points to the same values as its input is bound to. 
+The button gets bound up using another binding handler from Bifrost; command, and is bound 
+directly to the command sitting on the viewmodel.
+
+The app should now be capable of executing the command and have all validation hooked up automatically.
+You can confirm this by not entering anything into the fields and clicking the button should 
+yield the error messages in the client. If you use rules that can only be run on the server,
+the error messages will still propagate into the client.
+
+### Showing the consequence; data
+Now that we are firing off commands, we want to be able to actually show the data this produced.
+In our view we just add the following below the fieldset.
+
+    <table>
+        <thead>
+            <tr>
+                <th>Social Security Number</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: employees">
+            <tr>
+                <td data-bind="text: socialSecurityNumber"></td>
+                <td data-bind="text: firstName"></td>
+                <td data-bind="text: lastName"></td>
+            </tr>
+        </tbody>
+    </table>
+
+This should now be showing the result.
 
 
 
