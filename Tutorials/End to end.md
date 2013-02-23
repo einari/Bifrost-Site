@@ -274,7 +274,7 @@ EmployeeRegistered class into the Employees module and make it look like this:
 		}
 	}
 
-### Aggregated Root
+### Aggregate Root
 Once we have our event we need something to apply it, this is were we create an aggregate, a 
 transactional boundary that can apply the event. These aggregates do not expose any public
 state, only public behaviors - or methods as we call them in C#. They can hold internal state
@@ -290,7 +290,7 @@ called Employee, it should look like below:
 
 	namespace Domain.HumanResources.Employees
 	{
-		public class Employee : AggregatedRoot
+		public class Employee : AggregateRoot
 		{
 			public Employee(Guid id) : base(id) {}
 
@@ -328,9 +328,9 @@ validators and the aggregate. Make it look like below:
 	{
 		public class CommandHandlers : IHandleCommands
 		{
-			IAggregatedRootRepository<Employee> _repository;
+			IAggregateRootRepository<Employee> _repository;
 
-			public CommandHandlers(IAggregatedRootRepository<Employee> repository)
+			public CommandHandlers(IAggregateRootRepository<Employee> repository)
 			{
 				_repository = repository;
 			}
