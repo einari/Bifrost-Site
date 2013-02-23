@@ -69,11 +69,13 @@ So select the Web project and do:
 	PM> Install-Package Bifrost.Defaults
 
 What this does is setup Bifrost with Ninject as IOC Container, RavenDB embedded and SignalR.
+It also configures Bifrost to treat this as a single page application and adds an HTML file that
+just sets up Bifrost for you to start working with it.
 
 ### Frontend
 We're fond of doing top-down development, starting in the frontend and move downwards.
 
-The feature we're going to create is going to the registration of Employees.
+The feature we're going to create is going to be the registration of Employees.
 Inside your web project, add a folder called Features and inside it add another folder called Employees. 
 Now we're going to add the view for the registration. Add an HTML file called register.html inside the
 Employees folder. We're going to add some HTML within the body tag in the newly created file.
@@ -101,6 +103,12 @@ Now we're going to add a viewmodel that will be associated with your feature.
 		})
 	});
 
+In the index.html file sitting at the root of your Web project, go and add the following within the body 
+tag:
+
+	<div data-feature="Employee/register"></div>
+
+Running your application with index.html as your startup page now should show the registration page you created.
 For now we're going to leave it at that. We will revisit this when we have the necessary bits ready in the
 C# code.
 
