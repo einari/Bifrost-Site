@@ -225,6 +225,11 @@ RegisterEmployeeInputValidator and make it look like below:
 Business validation is the next step after basic input validation has been executed. 
 You would normally use business validation to perform more complex scenarios and things
 that are more cross cutting within the command and not necessarily linked to a property.
+Instead of using the RuleFor() method, you might find the ModelRule() method more 
+convenient in this.
+
+Business validators tend to be more involved than property level, they can access 
+resources like the database or similar to get to their validation.
 
 For now, business validation is not something we will be performing at this stage. But
 the way you would write one is very similar to that of an input validator:
@@ -279,7 +284,12 @@ Once we have our event we need something to apply it, this is were we create an 
 transactional boundary that can apply the event. These aggregates do not expose any public
 state, only public behaviors - or methods as we call them in C#. They can hold internal state
 and have their state be populated from the events they self have generated over time by
-implementing a private Handle() method that takes in the event it wants to handle.
+implementing a private On() method that takes in the event it wants to respond to.
+
+The aggregate should be modelled as a transaction, any invariants that are related to each
+other and goes together as a transaction should be kept together. This is very different
+from more traditional ways of modelling a domain were a transaction is just whatever 
+change you are doing. 
 
 Going back in the Domain project in the HumanResources and Employees folder, add a class 
 called Employee, it should look like below:
@@ -316,7 +326,7 @@ CommandHandlers are responsible for taking a command and performing the necessar
 in the domain. Implementing command handlers is very easy, all one has to do is create a class
 and stick a marker interface called IHandleCommands in there and just start implementing by
 convention public methods called Handle() that takes the specific command you want to handle
-in as a parameter.
+in as a parameter. There can only be one handle method in the system per command.
 
 In the domain project, lets add a class called CommandHandlers next to the command and the
 validators and the aggregate. Make it look like below:
@@ -346,6 +356,22 @@ validators and the aggregate. Make it look like below:
 		}
 	}
 
+### CommandCoordinator
+In Bifrost sits an entry point for commands, this is the place that all commands go through.
+Using the entire stack of Bifrost, you don't necessarily see this system.
+The CommandCoordinator is responsible for coordinating the pipeline of a command, the unit of 
+work in which a command lives in. The unit of work is called CommandContext and is unique
+for every command instance that goes through the system. At the very end of such a unit of
+work, Bifrost commits any events that was applied during the unit of work. This is similar
+to a transaction.
+
+### CommandResult
+From the CommandCoordinator comes an object containing information about the result of handling
+a command; CommandResult. In this you'll find details about validation, possible exceptions,
+security rules that might have been broken and such. It does not hold details about what happened
+in any event subscribers as they are not part of the unit of work of a command, but can be 
+asynchronously processed.
+
 ### ReadModel
 Now that we've taken care of business and applied events, we must look at the consequences of
 this. Lets start with the end result, the data what we will have. In Bifrost we refer to this
@@ -374,7 +400,11 @@ the data we generate from it into our datasource. We call these processors Event
 and we register subscriptions for them. In order to be able to process events, we do things
 similar to how we did the command handler. We create a class, mark it with an interface called
 IProcessEvents and implement a public method called Process() taking the specific event that
-you want to process as a parameter.
+you want to process as a parameter. You can have multiple of these Process() methods around the
+system responding differently to the event coming through. For instance, you could have one
+subscriber that would deal with the data change that the event causes and another dealing with
+sending an email or similiar, and they would be separated out in different files blissfully 
+unaware of the other subscribers existense. 
 
 
 	using Bifrost.Events;
