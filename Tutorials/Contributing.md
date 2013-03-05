@@ -11,11 +11,18 @@ Bifrost is hosted on GitHub, a social hub for software projects.
 
 ## Building
 
+## Documentation
+
+### XML
+
+### Tutorials
+
+### Guides
 
 ## Specifications
 
 
-### C#
+### C-Sharp
 
 All the C# code has been specified by using  [MSpec](https://github.com/machine/machine.specifications) with an adapted style. 
 
@@ -57,6 +64,8 @@ The implementation can then look like this :
     	It should_commit_aggregated_root = () => aggregated_root.CommitCalled.ShouldBeTrue();
 	}
 
+We are really focused on making our specifications read out clearly in plain English, which makes the code look very different from what we do for our units. For instance we use underscore (_) as space in type names, variable names and the specification delegates. We also want to keep things as one-liners, so your Establish, Because and It statements should preferably be on one line. There are some cases were this does not make any sense, when you need to verify more complex scenarios. This also means that an It statement should be one assert. 
+
 
 We've used [Moq](http://code.google.com/p/moq/) for handling mocking of objects.
 
@@ -93,6 +102,6 @@ All JavaScript code has been specified using [Jasmine](http://pivotal.github.com
 
 ### Other platforms
 
-Bifrost has support for several .net based platforms, such as Silverlight, WinRT, and its important to keep these in sync. Most code can be shared between these platforms. And all 
+Bifrost has support for several .net based platforms, such as Silverlight, WinRT, and its important to keep these in sync. Most code can be shared between these platforms. And all the code files that is shared from the Bifrost core project into these, or similarily when it is an extension and files from the core project is shared with the platform specific project, the files are added as references from the core project.
 
 
