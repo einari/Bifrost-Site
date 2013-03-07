@@ -15,16 +15,31 @@ Bifrost is hosted on GitHub, a social hub for software projects.
 
 ### XML
 
-### Tutorials
+### Tutorials and other guides
 
-### Guides
+The official site of Bifrost is written in [markdown](http://en.wikipedia.org/wiki/Markdown) and exist as a [GitHub project](http://github.com/dolittle/bifrost-site), just as the main source code of Bifrost. Contributing to the documentation is done in the same way as with the source, you would fork the project, commit to it and create pull requests to get the change back to the main repository. Once your change is accepted into the main repository the application hosting the documentation will be notified and it will pull down the source.
+
+## Writing a tutorial
+
+Tutorials sit inside the [Tutorial](https://github.com/dolittle/Bifrost-Site/tree/master/Tutorials) folder of the Bifrost site project. For now it has a flat structure, so adding a .md file in here will just show up in the Tutorial section on the site. This will however be changed in the future to be more structured with sections grouping them to subjects.
+
+
+## Writing detailed documentation
+
+A cross breed of tutorials and API documentation exists to explain the concepts that exist in Bifrost. This sits in the [Documentation](https://github.com/dolittle/Bifrost-Site/tree/master/Documentation) folder of the Bifrost site project. Within here you have the first level represent a top level subject as a folder, such as Commands with specific units as folders and within these folders you have the concrete .md files representing an aspect of documentation or even samples laid out.
+
+
+## API
+
+It will be possible to add additional details to the already generated XML comments. This system is not in place yet, but will come at a later stage.
+
 
 ## Specifications
 
 
 ### C-Sharp
 
-All the C# code has been specified by using  [MSpec](https://github.com/machine/machine.specifications) with an adapted style. 
+All the C# code has been specified by using  [MSpec](http://github.com/machine/machine.specifications) with an adapted style. 
 
 Since we're using this for specifying units as well, we have a certain structure to reflect this. The structure is reflected in the folder structure and naming of files. 
 
