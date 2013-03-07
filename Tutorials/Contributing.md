@@ -4,9 +4,22 @@ Bifrost is a completely open-source project, not just a source opened. We do acc
 
 ## The Source
 
-Bifrost is hosted on GitHub, a social hub for software projects. 
+Bifrost is hosted on [GitHub](http://github.com) [here](http://github.com/dolittle/bifrost), a social hub for software projects. 
+
+## Fork
+
 
 ## Git
+
+[Git](http://en.wikipedia.org/wiki/Git_(software)) is a distributed source control system. There are many tools out there for working with Git, if you're already using Git, you already know this. The easiest way to get started when working with Git on GitHub would be [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com). 
+
+### Cloning your fork
+
+### Committing locally
+
+### Pushing back to GitHub
+
+### Creating a pull request
 
 
 ## Building
@@ -34,7 +47,11 @@ A cross breed of tutorials and API documentation exists to explain the concepts 
 It will be possible to add additional details to the already generated XML comments. This system is not in place yet, but will come at a later stage.
 
 
+
+
 ## Specifications
+
+We want to make sure our code is tested, or as we like to say; specified. We use a branch of [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior-driven_development) referred to as [Specification by Example](http://specificationbyexample.com). These are run continuously to make sure we keep the code as we specified it to be and we don't get regressions.
 
 
 ### C-Sharp
