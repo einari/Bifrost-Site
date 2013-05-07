@@ -5,7 +5,7 @@ The Bifrost code is well tested, but from time there may be a need to step into 
 In most situations, you'd typically want to just grab the debug-symbols, step into the code and figure out whatever it is you're interested in. If you need to get more involved, then you should get the source directly.
 
 
-## Using debug symbols
+### Using debug symbols
 All official releases of Bifrost after v1.0.0.8 will have debug symbols available on [SymbolSource](http://www.symbolsource.org).
 
 ### Enable source server
@@ -17,7 +17,8 @@ To enable symbol server support within Visual Studio do the following  :
  
  2. Tools > Options > Debugging > Symbols
  	- Click the "new"-icon 
- 	- Enter the following server : ``http://srv.symbolsource.org/pdb/Public``
+ 	- Enter the following server: 
+ 	   ``http://srv.symbolsource.org/pdb/Public``
 
 
  More resources : 
