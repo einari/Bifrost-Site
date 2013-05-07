@@ -13,10 +13,11 @@ All official releases of Bifrost after v1.0.0.8 will have debug symbols availabl
 To enable symbol server support within Visual Studio do the following  : 
 
  1. Tools > Options > Debugging > General
- 	Check "Enable source server support"
+ 	- Check "Enable source server support"
  
  2. Tools > Options > Debugging > Symbols
- 	Click the "New"-icon and enter the following server : "http://srv.symbolsource.org/pdb/Public"
+ 	- Click the "new"-icon 
+ 	- Enter the following server : ``http://srv.symbolsource.org/pdb/Public``
 
 
  More resources : 
