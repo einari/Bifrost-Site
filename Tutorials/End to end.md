@@ -106,7 +106,7 @@ Now we're going to add a viewmodel that will be associated with your feature.
 In the index.html file sitting at the root of your Web project, go and add the following within the body 
 tag:
 
-	<div data-feature="Employee/register"></div>
+	<div data-view="Employees/register"></div>
 
 Running your application with index.html as your startup page now should show the registration page you created.
 For now we're going to leave it at that. We will revisit this when we have the necessary bits ready in the
