@@ -90,7 +90,7 @@ Employees folder. We're going to add some HTML within the body tag in the newly 
         <br />
 
         <strong>Social Security Number</strong>
-        <input type="text" data-bind="value: register.socialSecurityNumber" />
+        <input type="text" />
         <br />
 
         <button>Register</button>
