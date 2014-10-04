@@ -54,7 +54,7 @@ From your JavaScript - for instance a ViewModel, you can now do this:
 	});
 
 
-You might notice that instead of what might be expected when working SignalR:
+You might notice that instead of what might be expected when working with SignalR for results coming back from calls to the server:
 
 	.done(function() {}) 
 
