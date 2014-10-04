@@ -1,6 +1,6 @@
 # Version 1.0.0.10
 
-* Making everything for .net 4.5
+* Making everything compile against .net 4.5
 * Updated 3rd party references
   * Newtonsoft Json - 6.0.5
   * Ninject - 3.2.0.0
