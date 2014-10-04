@@ -54,6 +54,8 @@ From your JavaScript - for instance a ViewModel, you can now do this:
 	});
 
 
+The "myHub" dependency will automatically be injected by convention. All hubs are placed in the closest matching namespace. If none is found, there is a global namespace called hubs that will hold it. The last dependency resolver in the chain will be the one that recognizes the global namespace and it will always be found.
+
 You might notice that instead of what might be expected when working with SignalR for results coming back from calls to the server:
 
 	.done(function() {}) 
