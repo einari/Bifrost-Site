@@ -46,7 +46,8 @@ From your JavaScript - for instance a ViewModel, you can now do this:
 	Bifrost.namespace("Web.BoundedContext.Module", {
 		myFeature: Bifrost.views.ViewModel.extend(function(myHub) {
 
-			myHub.doSomething(43,"fourty three").continueWith(function(result) {
+			myHub.doSomething(43,"fourty three")
+					.continueWith(function(result) {
 				// Result should be 42...
 			});
 		});
