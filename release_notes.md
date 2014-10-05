@@ -32,11 +32,14 @@ We are now generating Bifrost proxies for hubs - these are placed in the namespa
 
 	using Microsoft.AspNet.SignalR;
 
-	public class MyHub : Hub
+	namespace Web.BoudedContext.Module
 	{
-		public int DoSomething(int someInteger, string someString)
+		public class MyHub : Hub
 		{
-			return 42;
+			public int DoSomething(int someInteger, string someString)
+			{
+				return 42;
+			}
 		}
 	}
 
@@ -46,7 +49,7 @@ From your JavaScript - for instance a ViewModel, you can now do this:
 	Bifrost.namespace("Web.BoundedContext.Module", {
 		myFeature: Bifrost.views.ViewModel.extend(function(myHub) {
 
-			myHub.doSomething(43,"fourty three")
+			myHub.server.doSomething(43,"fourty three")
 					.continueWith(function(result) {
 				// Result should be 42...
 			});
