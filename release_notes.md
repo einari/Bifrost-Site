@@ -56,8 +56,20 @@ From your JavaScript - for instance a ViewModel, you can now do this:
 
 The "myHub" dependency will automatically be injected by convention. All hubs are placed in the closest matching namespace. If none is found, there is a global namespace called hubs that will hold it. The last dependency resolver in the chain will be the one that recognizes the global namespace and it will always be found.
 
+With this you don't have to think about starting the SignalR Hub connection like one would have to do with a bare SignalR. Bifrost manages this on the first hub being used.
+
 You might notice that instead of what might be expected when working with SignalR for results coming back from calls to the server:
 
 	.done(function() {}) 
 
 We are using the Bifrost promise instead. This is because we want consistency with Bifrost, not with SignalRs proxies. In fact, we are not using the SignalR proxies at all, but our own proxy generation engine as we use for the generation of proxies for Commands, Queries, ReadModels, Security, Validation and more.
+
+If you want to set up client funtions that you want for the particular Hub instances, you can do this by doing the following:
+
+	myHub.client(function(client) {
+		client.doSomething = function(someString, someNumber) {
+			// Do things in the client called from the server
+		};
+	});
+
+This will subscribe to any method calls from the server corresponding to the name of the function. The above code can be called anytime, there is no ordering to think of as with vanilla SignalR were you have to do this prior to starting the Hub connection. 
