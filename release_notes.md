@@ -28,7 +28,7 @@
 
 ## More convenient way to import instances of types - #534
 
-In Bifrost we have something called ITypeImporter and ITypeDiscoverer. The importer imports the types as instances, that means the implementation uses the IOC container to resolve an instance when calling the .Import*<>() methods. The discoverer is responsible for just discovering the types when calling the Find*<>() methods and has nothing to do with instances. With this release, we're introducing something that makes this whole thing more explicit, clearer and easier to use. There is now an interface called IInstancesOf<> that you can take a dependency on. The interface inherits IEnumerable<> and as a consequence the implementation InstanceOf<> will do the instantiation when its enumerated. The way you can use this is:
+In Bifrost we have something called ITypeImporter and ITypeDiscoverer. The importer imports the types as instances, that means the implementation uses the IOC container to resolve an instance when calling the .Import*<>() methods. The discoverer is responsible for just discovering the types when calling the Find*<>() methods and has nothing to do with instances. With this release, we're introducing something that makes this whole thing more explicit, clearer and easier to use. There is now an interface called IInstancesOf<> that you can take a dependency on. The interface inherits IEnumerable<> and as a consequence the implementation InstancesOf<> will do the instantiation when its enumerated. The way you can use this is:
 
 	using Bifrost.Execution;
 
@@ -36,7 +36,7 @@ In Bifrost we have something called ITypeImporter and ITypeDiscoverer. The impor
 	{
 		public class MySystem
 		{
-			public MySystem(IInstanceOf<SomeAbsractOrInterfaceType> instances)
+			public MySystem(IInstancesOf<SomeAbsractOrInterfaceType> instances)
 			{
 				// The enumerator will now instantiate through the IOC container
 				// giving you an instance with correct lifecycle
