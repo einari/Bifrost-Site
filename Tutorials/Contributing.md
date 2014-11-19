@@ -1,5 +1,6 @@
 # Introduction
 
+Blah...
 Bifrost is a completely open-source project, not just a source opened. We do accept contributions, allthough we reserve our rights to decline a submission or engage in a dialog to get changes to a submission that makes it comply with what how we want to have the code.
 
 ## The Source
