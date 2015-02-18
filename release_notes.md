@@ -1,3 +1,28 @@
+# Version 1.0.0.11
+* Support for derived query types (#538)
+* Required rule more robust
+* Fixed generation of Queryable extensions for .Skip and .Take (#540)
+* Started work on DocumentDB implementation - EventStore is up and running (#531)
+* Started work on new validation and business rules engine based on a new underlying rule engine
+* FluentValidation moved into its own components - Bifrost.FluentValidation - available as its own NuGet package
+* Improving the naive file system based EventStore and EntityContexts
+* Improved QuickStart to showcase more features - this still need to be worked on a lot to actually cover all features.
+* Started work on query validation support (#382)
+* ICanResolvePrinicpal implementation automatically discovered (#549)
+* Added ViewModelService for XAML based clients
+* Support for SimpleInjector (#568 - pull request)
+* Handling of missing properties for mapping in JavaScript fixed (#585 - pull request)
+* Improving XML comments in general
+* Added MethodInfoConverter to JSON component
+* Started work on mapping support for C# - needed for DocumentDB support, amongst others
+* Heavy work on the new control, binding and object model for JavaScript
+* Improved isObject() check when checking "undefined" for JavaScript
+* Code quality work with the help of NDepend
+* Updated 3rd party references
+  * Newtonsoft Json - 6.0.8
+  * Ninject - 3.2.2.0
+  * SignalR - 2.2.0
+
 # Version 1.0.0.10
 
 * Making everything compile against .net 4.5
