@@ -1,3 +1,15 @@
+# Version 1.0.0.12
+* XAML Visual Tree extensions
+* Adding better check for wether or not an assembly is a .NET assembly during location instead of relying on BadImageException
+* Temporarily disabling Windows Phone version of Client - will return in a future release
+* DocumentDB strategies for collection storage - default implementation puts all entity types in same collection called entities. Query support for getting correct entities when asking for a specific type.
+* Added FromMethod MarkupExtension for XAML clients for pointing directly to a method on your ViewModel for the Command property of things like Button. 
+* Enabling strong name signing - for same reason this was not enabled
+* Introducing a ViewModel MarkupExtension for XAML clients that takes the type of ViewModel and it will use the container to instantiate it. Used for the DataContext property typically.
+* Started work on a better way to filter assemblies you don't want to discover types for. Early days.
+* Putting in place DesktopConfiguration for the WPF client
+* Changing one of the overloads for IOC containers for Bind when binding to a Func. It now takes the type being bound to. 
+
 # Version 1.0.0.11
 * Support for derived query types (#538)
 * Required rule more robust
