@@ -1,3 +1,12 @@
+# Version 1.0.0.15
+* Configure startup now uses same AssemblyProvider as the rest of the system
+
+# Version 1.0.0.14
+* ICommandFor<> support for client in place with full proxy generation of the frontend concerns. Fully bindable in XAML.
+
+# Version 1.0.0.13
+* AssemblyFiltering for startup in place. For now accessible from the DiscoverAndConfigure() method on the configure object
+
 # Version 1.0.0.12
 * XAML Visual Tree extensions
 * Adding better check for wether or not an assembly is a .NET assembly during location instead of relying on BadImageException
