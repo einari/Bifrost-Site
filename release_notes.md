@@ -7,6 +7,29 @@
 # Version 1.0.0.13
 * AssemblyFiltering for startup in place. For now accessible from the DiscoverAndConfigure() method on the configure object
 
+## Usage
+For instance, lets say you have a WPF application, the way you would use this is would be in your App.xaml.cs file:
+
+	using Bifrost.Configuration;
+	using Bifrost.Configuration.Assemblies;
+
+	namespace YourApp
+	{
+		public partial class App : Application
+		{
+			static App()
+			{
+				Configure.DiscoverAndConfigure(a=>
+					a.IncludeAll()
+						.ExceptAssembliesStartingWith("System","Microsoft"));
+			}
+		}
+	}
+
+	
+In the future there will be other mechanisms as well which would apply better for Web scenarios where one does not call DiscoverAndConfigure manually. Also, the sample above with "System" and "Microsoft" will eventually be something Bifrost itself will filter, this is linked to the future mechanism coming.
+
+
 # Version 1.0.0.12
 * XAML Visual Tree extensions
 * Adding better check for wether or not an assembly is a .NET assembly during location instead of relying on BadImageException
