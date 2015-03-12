@@ -1,3 +1,16 @@
+# Version 1.0.0.16
+* FromMethod extension in WPF/XAML client now supports CanExecute (#612)
+* ICommandFor<> can now be generated from a concrete instance of a command (#611)
+* Fix for assembly filtering to filter assemblies delay loaded after initial initialization (#613)
+
+## CanExecute for FromMethod
+In the Interaction namespace of Bifrost when using the client, you'll find a markup extension called FromMethod. This extension now supports the capability of taking 
+
+	<Button Command="{interaction:FromMethod NameOfMethod, CanExecuteWhen=NameOfMethodOrProperty}"/>
+
+The *CanExecuteWhen* property of the extension is optional and can take either a method or a property. If it is a method, the method can be a method without any parameters or with one parameter and the command parameter will then be passed in. The return type needs to be of type *bool*, same goes for if it is a property. If the declaring type implements *INotifyPropertyChanged* and you're specifying a property - it will trigger a *CanExecuteChanged* event for the returning command when the property changed so it can be evaluated by the WPF infrastructure again. 
+
+
 # Version 1.0.0.15
 * Configure startup now uses same AssemblyProvider as the rest of the system
 
