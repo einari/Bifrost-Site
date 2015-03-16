@@ -1,3 +1,9 @@
+# Version 1.0.0.17
+* FromMethod extension in WPF/XAML client can now take an *IValueConverter* to use for converting parameters (#616)
+
+	<Button Command="{interaction:FromMethod NameOfMethod, CanExecuteWhen=NameOfMethodOrProperty, ParameterConverter={StaticResource AValueConverter}}"/>
+
+
 # Version 1.0.0.16
 * FromMethod extension in WPF/XAML client now supports CanExecute (#612)
 * ICommandFor<> can now be generated from a concrete instance of a command (#611)
