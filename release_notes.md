@@ -1,7 +1,31 @@
+# Version 1.0.0.18
+* Added process callbacks for ICommandFor<> (#614)
+* Configuring messenger for desktop when configuring for desktop (Configure.Frontend.Desktop()) - as a singleton (#617)
+
+## Process Callbacks (#614)
+
+	public class ViewModel
+	{
+		public ViewModel(ICommandFor<MyCommand> commandFor)
+		{
+			commandFor.Succeeded((cmd, result) => {
+				// Things to do when successful
+			});
+
+			commandFor.Failed((cmd, result) => {
+				// Things to do when failed
+			});
+
+			commandFor.Handled((cmd, result) => {
+				// Things to do when handled
+			});
+		}
+	}
+
 # Version 1.0.0.17
 * FromMethod extension in WPF/XAML client can now take an IValueConverter to use for converting parameters (#616)
 
-## ParameterConverter
+## ParameterConverter (#616)
 
 	<Button Command="{interaction:FromMethod NameOfMethod, CanExecuteWhen=NameOfMethodOrProperty, ParameterConverter={StaticResource AValueConverter}}"/>
 
