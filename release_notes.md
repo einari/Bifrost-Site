@@ -1,3 +1,6 @@
+# Version 1.0.0.19
+This version exists only because one of the packages of the 1.0.0.18 release was corrupt, and NuGet doesn't allow for deleting a version
+
 # Version 1.0.0.18
 * Added process callbacks for ICommandFor<> (#614)
 * Configuring messenger for desktop when configuring for desktop (Configure.Frontend.Desktop()) - as a singleton (#617)
