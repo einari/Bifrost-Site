@@ -1,3 +1,12 @@
+# Version 1.0.0.21
+
+* Interface that you can implement to get notified when configuration is done - IWantToKnowWhenConfigurationIsDone (#598)
+* ICommandFor callbacks are called per instance (#626)
+* Explicit registration of IMessenger -> Messenger removed - marked with singleton
+* Making designtime work properly without errors in Visual Studio for the ViewModel markup extension
+* Making messenger use WeakReference (#601)
+* 
+
 # Version 1.0.0.19 & 1.0.0.20
 Due to some strange behavior of the NuGet servers yielding error messages claiming errors in the Package metadata and also that versions where missing. We ended up releasing a couple of versions thinking our packages were corrupt. Therefor, these versions are exactly the same as 1.0.0.18.
 
