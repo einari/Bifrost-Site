@@ -1,3 +1,15 @@
+# Version 1.0.0.22
+
+* Improved weak delegates for Messenger
+* Change to WeakDelegate for the CommandFor pipeline
+* Ignoring dynamic assemblies for type discovery and assembly loading
+* Started work on support for EntityFramework
+* Making Proxy generation a part of core as it is needed for more than just clients
+* Upgraded NHibernate support to the latest and greatest (#640)
+* Fixing how assemblies are loaded and making configuration use the same mechanism. It is now possible to specify assemblies in a fluent way + a new interface that can be implemented for specifying assemblies to include or ignore in discovery mechanisms (ICanSpecifyAssemblies)
+* JavaScript dependency resolver now only resolves dependency instances when needed (#646)
+* Upgaded to .NET 4.5.1 for all projects
+
 # Version 1.0.0.21
 
 * Interface that you can implement to get notified when configuration is done - IWantToKnowWhenConfigurationIsDone (#598)
@@ -5,7 +17,6 @@
 * Explicit registration of IMessenger -> Messenger removed - marked with singleton
 * Making designtime work properly without errors in Visual Studio for the ViewModel markup extension
 * Making messenger use WeakReference (#601)
-* 
 
 # Version 1.0.0.19 & 1.0.0.20
 Due to some strange behavior of the NuGet servers yielding error messages claiming errors in the Package metadata and also that versions where missing. We ended up releasing a couple of versions thinking our packages were corrupt. Therefor, these versions are exactly the same as 1.0.0.18.
