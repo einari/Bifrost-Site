@@ -1,4 +1,4 @@
-# Version 1.0.0.22
+# Version 1.0.0.22 & 1.0.0.23
 
 * Improved weak delegates for Messenger
 * Change to WeakDelegate for the CommandFor pipeline
