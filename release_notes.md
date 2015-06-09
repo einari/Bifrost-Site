@@ -1,3 +1,7 @@
+# Version 1.0.0.24
+
+* Making it possible to override IExecutionEnvironment at startup - as a temporary solution till we get to #650 & #651
+
 # Version 1.0.0.22 & 1.0.0.23
 
 * Improved weak delegates for Messenger
