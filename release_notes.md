@@ -1,3 +1,7 @@
+# Version 1.0.0.28 & 1.0.0.29
+
+* Adding in support for assemblies without a location during assembly discovery
+
 # Version 1.0.0.27
 
 * areAllParametersSet() on query now supports observables (#655)
