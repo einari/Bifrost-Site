@@ -1,3 +1,9 @@
+# Version 1.0.0.27
+
+* areAllParametersSet() on query now supports observables (#655)
+* Fixed NuGet package reference for FluentValidation to the signed version (#654)
+* Added a package for the MVC project support (PS: this is MVC3, so good old)
+
 # Version 1.0.0.26
 
 * Removing IExecutionEnvironment - introducing ICanProvideAssemblies and rewriting how things work with assemblies. Fixes #650.
