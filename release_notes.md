@@ -1,4 +1,8 @@
-# Version 1.0.0.24
+# Version 1.0.0.26
+
+* Removing IExecutionEnvironment - introducing ICanProvideAssemblies and rewriting how things work with assemblies. Fixes #650.
+
+# Version 1.0.0.24 & 1.0.0.25
 
 * Making it possible to override IExecutionEnvironment at startup - as a temporary solution till we get to #650 & #651
 
