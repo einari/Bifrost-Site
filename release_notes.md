@@ -1,3 +1,7 @@
+# Version 1.0.0.30
+
+* Fixed type discovery performance, both for startup and runtime (#657)
+
 # Version 1.0.0.28 & 1.0.0.29
 
 * Adding in support for assemblies without a location during assembly discovery
