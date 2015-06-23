@@ -1,3 +1,7 @@
+# Version 1.0.0.31
+
+* LocalPath used for assemblies during loading from the URI (#662) - from PR #663
+
 # Version 1.0.0.30
 
 * Fixed type discovery performance, both for startup and runtime (#657)
